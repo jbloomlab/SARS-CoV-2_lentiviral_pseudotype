@@ -1,0 +1,905 @@
+LOCUS       HDM_IDTSpike_ALA        8384 bp ds-DNA     circular     12-MAR-2020
+DEFINITION  HDM vector with 5' NotI cloning site and 3' BamHI cloning site.
+SOURCE      
+  ORGANISM  
+REFERENCE   1  (bases 1 to        6112)
+  AUTHORS   GRAY JT
+  TITLE     Direct Submission
+  JOURNAL   Submitted (1-May-2003) John T. Gray Telephone: (617) 432-1249
+            E-mail: gray@hihg.med.harvard.edu Harvard Gene Therapy Initiative
+            Vector Core Lab, Room 412 Harvard Institutes for Medicine 77 Avenue
+            Louis Pasteur Boston, MA 02115 USA
+COMMENT     Expressed codon-optimized Spike from SARS-CoV-2 with CMV promoter.
+            Cloned by Jesse Bloom, March 2020.
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     misc_feature    779..1254
+                     /vntifkey="21"
+                     /note="Human B-globin 2nd intron, Rsa I deleted."
+                     /locus_tag="B-globin_intron"
+                     /label="B-globin_intron"
+                     /ApEinfo_label="B-globin_intron"
+                     /ApEinfo_fwdcolor="#7eff74"
+                     /ApEinfo_revcolor="#7eff74"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     polyA_site      5373..5397
+                     /vntifkey="26"
+                     /note="Axxs added after these bases in globin message."
+                     /locus_tag="polyA_site"
+                     /label="polyA_site"
+                     /ApEinfo_label="polyA_site"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="cyan"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    5921..5945
+                     /vntifkey="21"
+                     /note="End of globin sequences in typical pMD constructs."
+                     /locus_tag="End_of_globin"
+                     /label="End_of_globin"
+                     /ApEinfo_label="End_of_globin"
+                     /ApEinfo_fwdcolor="#7eff74"
+                     /ApEinfo_revcolor="#7eff74"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     CDS             6185..7042
+                     /vntifkey="4"
+                     /note="B-lactamase, confers ampicillin resistance, no Pst
+                     I."
+                     /locus_tag="bla"
+                     /label="bla"
+                     /ApEinfo_label="bla"
+                     /ApEinfo_fwdcolor="#e9d024"
+                     /ApEinfo_revcolor="#e9d024"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    628..679
+                     /vntifkey="21"
+                     /note="CMV TATA box sequences, from -52 to -1.  Wild type,
+                     with Sac I site."
+                     /locus_tag="CMV_TATA"
+                     /label="CMV_TATA"
+                     /ApEinfo_label="CMV_TATA"
+                     /ApEinfo_fwdcolor="#7eff74"
+                     /ApEinfo_revcolor="#7eff74"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    8272..8384
+                     /vntifkey="21"
+                     /note="SV40 5172..41, contains origin of replication, from
+                     pMD cassette."
+                     /locus_tag="SV40_ori"
+                     /label="SV40_ori"
+                     /ApEinfo_label="SV40_ori"
+                     /ApEinfo_fwdcolor="#7eff74"
+                     /ApEinfo_revcolor="#7eff74"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    7341..7384
+                     /vntifkey="21"
+                     /note="Tag for High copy plasmid replication xxpUC18xx"
+                     /locus_tag="High_copy"
+                     /label="High_copy"
+                     /ApEinfo_label="High_copy"
+                     /ApEinfo_fwdcolor="#7eff74"
+                     /ApEinfo_revcolor="#7eff74"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     promoter        9..679
+                     /vntifkey="30"
+                     /note="CMV promoter.  Transcription starts with next base.
+                     5 prime end represents complete extent of the CMV promoter
+                     in MDM based plasmids, which corresponds to positions
+                     471..1141 of hCMVie genbank record accession X03922."
+                     /locus_tag="CMV"
+                     /label="CMV"
+                     /ApEinfo_label="CMV"
+                     /ApEinfo_fwdcolor="#346ee0"
+                     /ApEinfo_revcolor="#346ee0"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    680..750
+                     /vntifkey="21"
+                     /note="5xx untranslated region from CMV immediate early
+                     promoter.  The 3 prime end corresponds to the full extent
+                     of CMV sequences in the MDM constructs."
+                     /locus_tag="CMV_5xxUTR"
+                     /label="CMV_5xxUTR"
+                     /ApEinfo_label="CMV_5xxUTR"
+                     /ApEinfo_fwdcolor="#7eff74"
+                     /ApEinfo_revcolor="#7eff74"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    5186..5945
+                     /vntifkey="21"
+                     /note="From 3rd exon of human beta globin, contains polyA
+                     sequences commonly used in HGTI vector lab constructs."
+                     /locus_tag="beta_globin_pA"
+                     /label="beta_globin_pA"
+                     /ApEinfo_label="beta_globin_pA"
+                     /ApEinfo_fwdcolor="#7eff74"
+                     /ApEinfo_revcolor="#7eff74"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     promoter        96..679
+                     /vntifkey="30"
+                     /note="CMV promoter.  Transcription starts with next base.
+                     5 prime end starts at Spe I site only.  The CMV region in
+                     this construct may extend further upstream."
+                     /locus_tag="CMV(1)"
+                     /label="CMV(1)"
+                     /ApEinfo_label="CMV"
+                     /ApEinfo_fwdcolor="#346ee0"
+                     /ApEinfo_revcolor="#346ee0"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    7805..7830
+                     /vntifkey="21"
+                     /note="From sequencing HDM-SNVgpm8.  May be present in all
+                     HDM or even MDM plasmids.  No apparent functional
+                     ramifications.  This sequence has been found to be
+                     erroneous for some plasmids in our laboratory.  It would
+                     be prudent to sequence the DNA to confirm the accuracy of
+                     your records.  The sequence specified by this feature was
+                     actually found to be:  AACGCCAGCA ACGGAGATGC GCCGCGTG."
+                     /locus_tag="Correction-133"
+                     /label="Correction-133"
+                     /ApEinfo_label="Correction-133"
+                     /ApEinfo_fwdcolor="#7eff74"
+                     /ApEinfo_revcolor="#7eff74"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    8072..8099
+                     /vntifkey="21"
+                     /note="From sequencing HDM-SNVgpm8.  May be present in all
+                     HDM and MDM plasmids.  No apparent functional
+                     ramifications.  This sequence has been found to be
+                     erroneous for some plasmids in our laboratory.  It would
+                     be prudent to sequence the DNA to confirm the accuracy of
+                     your records.  The sequence specified by this feature was
+                     actually found to be:  CGAGGCGGCA TAAATCGCCG TGACGATC."
+                     /locus_tag="Correction-134"
+                     /label="Correction-134"
+                     /ApEinfo_label="Correction-134"
+                     /ApEinfo_fwdcolor="#7eff74"
+                     /ApEinfo_revcolor="#7eff74"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    5959..5996
+                     /vntifkey="21"
+                     /note="Extra EcoR I site of pMD-old-gag-pol.  This
+                     sequence is definitely not in all MDM constructs. Probably
+                     only exists in a few older constructs prior to the MDM2b
+                     set.  This sequence has been found to be erroneous for
+                     some plasmids in our laboratory.  It would be prudent to
+                     sequence the DNA to confirm the accuracy of your records.
+                     The sequence specified by this feature was actually found
+                     to be:  ACATGGCAGT CTAGAATTCT TGAAGACGAA AGGGCC."
+                     /locus_tag="Correction-143"
+                     /label="Correction-143"
+                     /ApEinfo_label="Correction-143"
+                     /ApEinfo_fwdcolor="#7eff74"
+                     /ApEinfo_revcolor="#7eff74"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(8297..8323)
+                     /vntifkey="28"
+                     /label=HGTI-8_Max=618
+                     /note="Add-musFLT-mIg Plasmid record #912  Max recorded
+                     sequencing read = 618 bases.  Perfect match Tm = 59.3 C,
+                     although only 17 nt are required to match. The actual
+                     sequence of the primer is tccagaagta gtgaggaggc ttttttg."
+                     /locus_tag="primer_bind"
+                     /label="primer_bind"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     692..715
+                     /vntifkey="28"
+                     /note="PCR or sequencing primer located in CMV sequence
+                     just after 5xx end of RNA transcript.  Max recorded
+                     sequencing read =  bases.  Perfect match Tm = 63.9 C,
+                     although only 17 nt are required to match.  The actual
+                     sequence of the primer is GAGACGCCAT CCACGCTGTT TTGA."
+                     /locus_tag="primer_bind(1)"
+                     /label="primer_bind(1)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(662..703)
+                     /vntifkey="28"
+                     /note="linker from SacI of CMV bridging into BglII of HIV
+                     R.  Max recorded sequencing read =  bases.  Perfect match
+                     Tm = 74.8 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is gatcTGGTCT AACCAGAGAG
+                     ACCCcggttc actaaacgAG CT."
+                     /locus_tag="primer_bind(2)"
+                     /label="primer_bind(2)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     617..638
+                     /vntifkey="28"
+                     /label=HGTI-1204_Max=311
+                     /note="Sequencing primers for pHJ1  Max recorded
+                     sequencing read = 311 bases. Perfect match Tm = 62.5 C,
+                     although only 17 nt are required to match.  The actual
+                     sequence of the primer is GCAAATGGGC GGTAGGCGTG TA."
+                     /locus_tag="primer_bind(3)"
+                     /label="primer_bind(3)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     612..652
+                     /vntifkey="28"
+                     /label=HGTI-1220_Max=162
+                     /note="?  Max recorded sequencing read = 162 bases.
+                     Perfect match Tm = 76.1 C, although only 17 nt are
+                     required to match.  The actual sequence of the primer is
+                     gcgcactagt catatggtag gcgtgtacgg tgggaggtct a."
+                     /locus_tag="primer_bind(4)"
+                     /label="primer_bind(4)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     1224..1244
+                     /vntifkey="28"
+                     /label=HGTI-1278_Max=0
+                     /note="Jeng Shin designed sequencing primer @ 5xx end of
+                     MDM2b polylinker facing towards gene.  xx723 is longer,
+                     higher Tm versionxx.  Max recorded sequencing read = 0
+                     bases.  Perfect match Tm = 40.3 C, although only 17 nt are
+                     required to match.  The actual sequence of the primer is
+                     CATGTTCATA CCTCTTATCT T."
+                     /locus_tag="primer_bind(5)"
+                     /label="primer_bind(5)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(5232..5249)
+                     /vntifkey="28"
+                     /note="Jeng Shin designed sequencing primer @ 3xx end of
+                     MDM2b polylinker facing towards gene.New incarnation is
+                     3149, reordered 1xx29xx01.  Max recorded sequencing read =
+                     bases.  Perfect match Tm = 54.2 C, although only 17 nt are
+                     required to match.  The actual sequence of the primer is
+                     gccagggcat tagccaca."
+                     /locus_tag="primer_bind(6)"
+                     /label="primer_bind(6)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     1209..1243
+                     /vntifkey="28"
+                     /label=HGTI-1732_Max=783
+                     /note="New 5xx sequencing primer for B-globin constructs.
+                     Same position as JSL-70, but longer with a Tm at 66C.  Max
+                     recorded sequencing read = 783 bases.  Perfect match Tm =
+                     65.5 C, although only 17 nt are required to match. The
+                     actual sequence of the primer is GGCCCTTTTG CTAATCATGT
+                     TCATACCTCT TATCT."
+                     /locus_tag="primer_bind(7)"
+                     /label="primer_bind(7)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     8225..8250
+                     /vntifkey="28"
+                     /label=HGTI-1828_Max=662
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 662 bases.  Perfect match
+                     Tm = 60.7 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is agcgagaaga atcataatgg
+                     ggaagg."
+                     /locus_tag="primer_bind(8)"
+                     /label="primer_bind(8)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     151..178
+                     /vntifkey="28"
+                     /label=HGTI-1832_Max=638
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 638 bases.  Perfect match
+                     Tm = 58.7 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is agttccgcgt tacataactt
+                     acggtaaa."
+                     /locus_tag="primer_bind(9)"
+                     /label="primer_bind(9)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     751..775
+                     /vntifkey="28"
+                     /label=HGTI-1834_Max=595
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 595 bases.  Perfect match
+                     Tm = 58.7 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is cctcgaagct gatcctgaga
+                     acttc."
+                     /locus_tag="primer_bind(10)"
+                     /label="primer_bind(10)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     1051..1082
+                     /vntifkey="28"
+                     /label=HGTI-1835_Max=639
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 639 bases.  Perfect match
+                     Tm = 58.2 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is gttaaggcaa tagcaatatt
+                     tctgcatata aa."
+                     /locus_tag="primer_bind(11)"
+                     /label="primer_bind(11)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     5355..5383
+                     /vntifkey="28"
+                     /label=HGTI-1843_Max=379
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 379 bases.  Perfect match
+                     Tm = 59.8 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is agcatctgga ttctgcctaa
+                     taaaaaaca."
+                     /locus_tag="primer_bind(12)"
+                     /label="primer_bind(12)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     5656..5689
+                     /vntifkey="28"
+                     /label=HGTI-1844_Max=643
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 643 bases.  Perfect match
+                     Tm = 59.1 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is ttttacatta cttattgttt
+                     tagctgtcct catg."
+                     /locus_tag="primer_bind(13)"
+                     /label="primer_bind(13)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(7510..7528)
+                     /vntifkey="28"
+                     /label=HGTI-1851_Max=601
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 601 bases.  Perfect match
+                     Tm = 60.1 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is cgaccgctgc
+                     gccttatcc."
+                     /locus_tag="primer_bind(14)"
+                     /label="primer_bind(14)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(7199..7228)
+                     /vntifkey="28"
+                     /label=HGTI-1852_Max=372
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 372 bases.  Perfect match
+                     Tm = 58.8 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is aaaaggatct caagaagatc
+                     ctttgatctt ."
+                     /locus_tag="primer_bind(15)"
+                     /label="primer_bind(15)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(6907..6928)
+                     /vntifkey="28"
+                     /label=HGTI-1853_Max=0
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 0 bases.  Perfect match Tm
+                     = 61.0 C, although only 17 nt are required to match.  The
+                     actual sequence of the primer is ccccagtgct gcaatgatac
+                     cg."
+                     /locus_tag="primer_bind(16)"
+                     /label="primer_bind(16)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(6608..6628)
+                     /vntifkey="28"
+                     /label=HGTI-1854_Max=650
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 650 bases.  Perfect match
+                     Tm = 58.4 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is agcggttagc tccttcggtc
+                     c."
+                     /locus_tag="primer_bind(17)"
+                     /label="primer_bind(17)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(6305..6328)
+                     /vntifkey="28"
+                     /label=HGTI-1855_Max=661
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 661 bases.  Perfect match
+                     Tm = 58.0 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is atccagttcg atgtaaccca
+                     ctcg."
+                     /locus_tag="primer_bind(18)"
+                     /label="primer_bind(18)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(5998..6028)
+                     /vntifkey="28"
+                     /label=HGTI-1856_Max=711
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 711 bases.  Perfect match
+                     Tm = 58.3 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is gacattaacc tataaaaata
+                     ggcgtatcac g."
+                     /locus_tag="primer_bind(19)"
+                     /label="primer_bind(19)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(236..260)
+                     /vntifkey="28"
+                     /label=HGTI-1863_Max=672
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 672 bases.  Perfect match
+                     Tm = 59.1 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is ccctattggc gttactatgg
+                     gaaca."
+                     /locus_tag="primer_bind(20)"
+                     /label="primer_bind(20)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(536..560)
+                     /vntifkey="28"
+                     /label=HGTI-1864_Max=485
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 485 bases.  Perfect match
+                     Tm = 58.0 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is aaacaaactc ccattgacgt
+                     caatg."
+                     /locus_tag="primer_bind(21)"
+                     /label="primer_bind(21)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(833..860)
+                     /vntifkey="28"
+                     /label=HGTI-1865_Max=636
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 636 bases.  Perfect match
+                     Tm = 59.3 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is tgttacttct ccccttccta
+                     tgacatga."
+                     /locus_tag="primer_bind(22)"
+                     /label="primer_bind(22)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(1135..1160)
+                     /vntifkey="28"
+                     /label=HGTI-1866_Max=639
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 639 bases.  Perfect match
+                     Tm = 59.3 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is gcagaatggt agctggattg
+                     tagctg."
+                     /locus_tag="primer_bind(23)"
+                     /label="primer_bind(23)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(5440..5464)
+                     /vntifkey="28"
+                     /label=HGTI-1874_Max=692
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 692 bases.  Perfect match
+                     Tm = 58.1 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is ttaaatgcac tgacctccca
+                     cattc."
+                     /locus_tag="primer_bind(24)"
+                     /label="primer_bind(24)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(5735..5765)
+                     /vntifkey="28"
+                     /label=HGTI-1875_Max=610
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 610 bases.  Perfect match
+                     Tm = 59.5 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is tatctctaag caagagaact
+                     gagtggagtc a."
+                     /locus_tag="primer_bind(25)"
+                     /label="primer_bind(25)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     7719..7744
+                     /vntifkey="28"
+                     /label=HGTI-1881_Max=511
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 511 bases.  Perfect match
+                     Tm = 59 C, although only 17 nt are required to match.  The
+                     actual sequence of the primer is atctttatag tcctgtcggg
+                     tttcgc."
+                     /locus_tag="primer_bind(26)"
+                     /label="primer_bind(26)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     7419..7446
+                     /vntifkey="28"
+                     /label=HGTI-1882_Max=565
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 565 bases.  Perfect match
+                     Tm = 60.5 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is catacctcgc tctgctaatc
+                     ctgttacc."
+                     /locus_tag="primer_bind(27)"
+                     /label="primer_bind(27)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     7119..7147
+                     /vntifkey="28"
+                     /label=HGTI-1883_Max=564
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 564 bases.  Perfect match
+                     Tm = 58.2 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is tgaagatcct ttttgataat
+                     ctcatgacc."
+                     /locus_tag="primer_bind(28)"
+                     /label="primer_bind(28)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     6819..6843
+                     /vntifkey="28"
+                     /label=HGTI-1884_Max=593
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 593 bases.  Perfect match
+                     Tm = 59.6 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is ataaagttgc aggaccactt
+                     ctgcg."
+                     /locus_tag="primer_bind(29)"
+                     /label="primer_bind(29)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     6519..6546
+                     /vntifkey="28"
+                     /label=HGTI-1885_Max=654
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 654 bases.  Perfect match
+                     Tm = 60.0 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is cggatggcat gacagtaaga
+                     gaattatg."
+                     /locus_tag="primer_bind(30)"
+                     /label="primer_bind(30)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     6219..6239
+                     /vntifkey="28"
+                     /label=HGTI-1886_Max=647
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD
+                     Max recorded sequencing read = 647 bases.  Perfect match
+                     Tm = 60.2 C, although only 17 nt are required to match.
+                     The actual sequence of the primer is ccttttttgc ggcattttgc
+                     c."
+                     /locus_tag="primer_bind(31)"
+                     /label="primer_bind(31)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     561..593
+                     /vntifkey="28"
+                     /label=HGTI-2021_Max=707
+                     /note="sequencing pHD from 3xx end  Max recorded
+                     sequencing read = 707 bases. Perfect match Tm = 71.5 C,
+                     although only 17 nt are required to match.  The actual
+                     sequence of the primer is tggcaccaaa atcaacggga ctttccaaaa
+                     tgt."
+                     /locus_tag="primer_bind(32)"
+                     /label="primer_bind(32)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(952..981)
+                     /vntifkey="28"
+                     /label=HGTI-2022_Max=610
+                     /note="sequencing primer in globin intron facing left. Max
+                     recorded sequencing read = 610 bases.  Perfect match Tm =
+                     53.9 C, although only 17 nt are required to match. The
+                     actual sequence of the primer is gaaagaaaga gattagggaa
+                     agtattagaa ."
+                     /locus_tag="primer_bind(33)"
+                     /label="primer_bind(33)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     1226..1253
+                     /vntifkey="28"
+                     /label=HGTI-2144_Max=0
+                     /note="sFlt clone Add-musFlt-mIg: sequencing ORF  Max
+                     recorded sequencing read = 0 bases.  Perfect match Tm =
+                     59.3 C, although only 17 nt are required to match.  The
+                     actual sequence of the primer is TGTTCATACC TCTTATCTTC
+                     CTCCCACA."
+                     /locus_tag="primer_bind(34)"
+                     /label="primer_bind(34)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    1303..1308
+                     /locus_tag="EcoRI"
+                     /label="EcoRI"
+                     /ApEinfo_label="EcoRI"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    5148..5153
+                     /locus_tag="HindIII"
+                     /label="HindIII"
+                     /ApEinfo_label="HindIII"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    1314..1321
+                     /locus_tag="NotI"
+                     /label="NotI"
+                     /ApEinfo_label="NotI"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="cyan"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    1317..1322
+                     /locus_tag="kozak"
+                     /label="kozak"
+                     /ApEinfo_label="kozak"
+                     /ApEinfo_fwdcolor="#fc6fce"
+                     /ApEinfo_revcolor="#fc6fce"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    1323..5147
+                     /locus_tag="IDTopt_Spike_ALAYT"
+                     /label="IDTopt_Spike_ALAYT"
+                     /ApEinfo_label="IDTopt_Spike_ALAYT"
+                     /ApEinfo_fwdcolor="#fdcc65"
+                     /ApEinfo_revcolor="#fdcc65"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     variation       5127..5129
+                     /locus_tag="KtoY"
+                     /label="KtoY"
+                     /ApEinfo_label="KtoY"
+                     /ApEinfo_fwdcolor="#ff575a"
+                     /ApEinfo_revcolor="#ff9e39"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     variation       5133..5135
+                     /locus_tag="HtoY"
+                     /label="HtoY"
+                     /ApEinfo_label="HtoY"
+                     /ApEinfo_fwdcolor="#ff373e"
+                     /ApEinfo_revcolor="#ff9e39"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+ORIGIN
+        1 agcttggccc attgcatacg ttgtatccat atcataatat gtacatttat attggctcat
+       61 gtccaacatt accgccatgt tgacattgat tattgactag ttattaatag taatcaatta
+      121 cggggtcatt agttcatagc ccatatatgg agttccgcgt tacataactt acggtaaatg
+      181 gcccgcctgg ctgaccgccc aacgaccccc gcccattgac gtcaataatg acgtatgttc
+      241 ccatagtaac gccaataggg actttccatt gacgtcaatg ggtggagtat ttacggtaaa
+      301 ctgcccactt ggcagtacat caagtgtatc atatgccaag tacgccccct attgacgtca
+      361 atgacggtaa atggcccgcc tggcattatg cccagtacat gaccttatgg gactttccta
+      421 cttggcagta catctacgta ttagtcatcg ctattaccat ggtgatgcgg ttttggcagt
+      481 acatcaatgg gcgtggatag cggtttgact cacggggatt tccaagtctc caccccattg
+      541 acgtcaatgg gagtttgttt tggcaccaaa atcaacggga ctttccaaaa tgtcgtaaca
+      601 actccgcccc attgacgcaa atgggcggta ggcgtgtacg gtgggaggtc tatataagca
+      661 gagctcgttt agtgaaccgt cagatcgcct ggagacgcca tccacgctgt tttgacctcc
+      721 atagaagaca ccgggaccga tccagcctcc cctcgaagct gatcctgaga acttcagggt
+      781 gagtctatgg gacccttgat gttttctttc cccttctttt ctatggttaa gttcatgtca
+      841 taggaagggg agaagtaaca gggtacacat attgaccaaa tcagggtaat tttgcatttg
+      901 taattttaaa aaatgctttc ttcttttaat atactttttt gtttatctta tttctaatac
+      961 tttccctaat ctctttcttt cagggcaata atgatacaat gtatcatgcc tctttgcacc
+     1021 attctaaaga ataacagtga taatttctgg gttaaggcaa tagcaatatt tctgcatata
+     1081 aatatttctg catataaatt gtaactgatg taagaggttt catattgcta atagcagcta
+     1141 caatccagct accattctgc ttttatttta tggttgggat aaggctggat tattctgagt
+     1201 ccaagctagg cccttttgct aatcatgttc atacctctta tcttcctccc acagctcctg
+     1261 ggcaacgtgc tggtctgtgt gctggcccat cactttggca aagaattccg cgggcggccg
+     1321 ccATGTTCGT GTTCCTGGTA CTCCTTCCTT TGGTGTCTTC CCAGTGTGTA AATCTTACCA
+     1381 CTCGGACCCA GCTTCCACCC GCCTACACCA ACAGTTTCAC ACGCGGCGTC TACTATCCTG
+     1441 ACAAGGTGTT TAGGAGTTCA GTCTTGCACT CAACTCAAGA CTTGTTCCTC CCTTTCTTTA
+     1501 GCAATGTGAC GTGGTTTCAT GCCATTCATG TCTCCGGCAC AAACGGAACG AAGCGCTTTG
+     1561 ATAATCCTGT GCTCCCGTTC AACGATGGAG TGTACTTCGC GTCCACAGAG AAGAGCAATA
+     1621 TCATTCGAGG TTGGATCTTC GGAACGACAC TCGACTCAAA GACGCAGTCC CTTCTCATCG
+     1681 TCAATAATGC CACGAACGTG GTCATCAAAG TGTGCGAGTT TCAATTCTGT AATGATCCCT
+     1741 TCCTGGGCGT CTATTATCAC AAGAACAACA AATCCTGGAT GGAGTCCGAA TTTAGAGTCT
+     1801 ACTCCAGCGC CAACAACTGC ACTTTCGAAT ACGTATCACA GCCATTCTTG ATGGACCTTG
+     1861 AAGGAAAGCA GGGTAATTTC AAGAACTTGA GGGAGTTCGT ATTCAAGAAT ATCGACGGGT
+     1921 ACTTTAAGAT TTATAGCAAA CACACACCCA TTAATTTGGT GCGGGATCTT CCTCAGGGAT
+     1981 TTAGTGCTCT TGAGCCTCTC GTTGACCTCC CTATTGGCAT TAACATCACC CGCTTTCAAA
+     2041 CCCTGTTGGC CCTGCATCGG TCCTACCTGA CACCGGGCGA CTCAAGTTCC GGATGGACCG
+     2101 CAGGTGCCGC CGCATACTAT GTGGGCTACC TTCAGCCAAG AACATTTCTG CTGAAATATA
+     2161 ATGAGAACGG GACCATTACA GATGCGGTGG ATTGTGCACT CGACCCTCTG TCTGAGACGA
+     2221 AATGCACCCT TAAGAGCTTC ACGGTGGAGA AAGGCATTTA TCAGACTTCT AACTTCAGAG
+     2281 TTCAACCCAC CGAGTCCATT GTGCGATTCC CAAATATTAC GAATTTGTGC CCATTTGGTG
+     2341 AGGTCTTCAA TGCTACTCGA TTCGCCTCAG TTTATGCATG GAACCGAAAG AGAATTTCCA
+     2401 ATTGTGTGGC GGACTACTCA GTATTGTATA ATAGTGCAAG CTTTAGCACA TTCAAATGTT
+     2461 ACGGCGTGTC TCCAACGAAG CTGAACGATC TCTGTTTCAC AAACGTTTAT GCGGATTCCT
+     2521 TCGTGATTCG CGGCGATGAG GTCCGACAGA TTGCGCCTGG GCAAACGGGT AAGATCGCTG
+     2581 ATTACAACTA TAAGTTGCCG GACGATTTCA CAGGATGTGT CATAGCTTGG AATAGCAATA
+     2641 ATTTGGACAG TAAGGTTGGC GGAAACTACA ATTATTTGTA CAGGTTGTTT CGCAAGTCAA
+     2701 ATTTGAAACC ATTTGAGAGA GATATATCTA CGGAGATATA TCAAGCCGGC TCTACACCAT
+     2761 GTAATGGTGT GGAGGGCTTT AACTGCTACT TTCCACTCCA GTCATATGGT TTCCAACCTA
+     2821 CAAATGGAGT AGGGTATCAA CCGTACAGAG TTGTGGTCTT GAGTTTCGAA TTGCTCCACG
+     2881 CTCCAGCAAC GGTATGCGGT CCTAAGAAAT CCACAAATCT TGTGAAGAAC AAGTGCGTAA
+     2941 ATTTCAACTT CAATGGGCTG ACTGGAACAG GCGTGCTGAC TGAGAGTAAC AAGAAGTTCT
+     3001 TGCCTTTCCA ACAATTCGGG CGGGACATAG CTGATACCAC TGACGCCGTC CGCGACCCTC
+     3061 AGACCCTGGA GATTCTGGAC ATAACTCCTT GTTCTTTCGG TGGCGTCAGT GTTATCACTC
+     3121 CCGGGACCAA CACCTCCAAC CAAGTCGCGG TCCTCTATCA AGACGTCAAC TGTACGGAAG
+     3181 TACCGGTAGC CATCCATGCG GACCAACTTA CACCGACTTG GAGGGTTTAC TCTACAGGAA
+     3241 GCAATGTCTT TCAAACACGA GCCGGGTGTC TGATCGGAGC AGAACACGTT AACAACAGCT
+     3301 ACGAATGTGA CATACCAATA GGCGCAGGGA TTTGTGCTTC ATATCAGACA CAGACCAATA
+     3361 GCCCGCGGAG AGCGAGAAGC GTAGCAAGCC AAAGCATCAT CGCGTACACG ATGAGCCTCG
+     3421 GAGCAGAGAA CAGCGTCGCG TATAGCAATA ATTCAATAGC TATCCCAACA AATTTCACTA
+     3481 TTTCGGTCAC CACTGAGATT CTGCCGGTCT CCATGACCAA GACATCCGTC GATTGTACTA
+     3541 TGTACATATG CGGCGACAGC ACGGAGTGCA GTAACTTGCT CCTTCAGTAC GGTTCCTTCT
+     3601 GTACGCAGCT TAACCGGGCA CTGACGGGTA TCGCGGTAGA ACAGGACAAG AACACACAGG
+     3661 AGGTCTTCGC GCAGGTCAAA CAAATCTACA AGACACCACC CATAAAGGAC TTCGGCGGGT
+     3721 TCAATTTCAG CCAAATCCTG CCGGACCCTT CCAAACCTAG TAAGAGGTCA TTCATTGAGG
+     3781 ATCTTCTGTT TAACAAAGTT ACGCTTGCGG ACGCGGGATT CATTAAGCAG TATGGTGACT
+     3841 GCCTTGGAGA TATTGCCGCC AGGGATTTGA TATGTGCACA GAAATTTAAC GGCCTCACCG
+     3901 TTCTGCCGCC TCTGCTCACC GATGAGATGA TAGCGCAGTA CACGAGCGCA CTCCTGGCAG
+     3961 GTACAATTAC AAGCGGATGG ACATTCGGTG CAGGAGCAGC GTTGCAGATA CCCTTTGCTA
+     4021 TGCAGATGGC TTATCGATTT AACGGGATTG GCGTCACGCA GAACGTCCTT TATGAGAATC
+     4081 AGAAATTGAT TGCAAATCAG TTCAATAGTG CTATCGGTAA GATTCAGGAC AGCTTGAGCA
+     4141 GTACCGCGTC TGCACTGGGA AAGTTGCAGG ACGTGGTGAA TCAGAATGCA CAAGCACTGA
+     4201 ATACCTTGGT TAAGCAATTG AGTAGCAATT TCGGCGCCAT ATCAAGTGTA CTGAATGATA
+     4261 TCCTGTCACG GTTGGACAAG GTAGAAGCCG AAGTTCAGAT TGACCGCTTG ATCACCGGGC
+     4321 GCCTCCAAAG TCTGCAGACC TACGTCACAC AACAATTGAT CAGAGCAGCA GAGATAAGAG
+     4381 CATCTGCTAA CCTGGCTGCC ACTAAGATGT CTGAATGTGT GCTTGGGCAG TCAAAGAGGG
+     4441 TAGATTTCTG CGGAAAGGGC TACCACCTTA TGTCTTTCCC TCAGAGCGCT CCGCATGGTG
+     4501 TGGTCTTTCT CCATGTGACT TATGTGCCTG CTCAAGAGAA GAACTTTACG ACGGCGCCCG
+     4561 CTATATGCCA TGATGGTAAG GCGCACTTTC CAAGGGAGGG AGTGTTCGTG TCCAACGGCA
+     4621 CTCACTGGTT TGTCACCCAA CGAAATTTCT ACGAGCCTCA AATTATTACC ACCGACAATA
+     4681 CCTTTGTTAG CGGTAACTGT GACGTCGTAA TTGGGATTGT TAATAATACA GTCTACGATC
+     4741 CTCTGCAGCC GGAACTGGAC TCCTTTAAAG AGGAGCTGGA CAAATATTTC AAGAACCACA
+     4801 CATCTCCTGA CGTAGATCTT GGAGACATAA GCGGTATAAA TGCAAGTGTT GTTAACATTC
+     4861 AGAAAGAAAT AGATAGGTTG AACGAAGTTG CGAAGAACCT TAACGAGTCA CTGATAGACC
+     4921 TCCAAGAGCT TGGGAAGTAC GAGCAATATA TCAAGTGGCC TTGGTATATT TGGCTCGGGT
+     4981 TCATAGCAGG ACTTATCGCT ATAGTCATGG TGACTATAAT GCTGTGCTGC ATGACAAGCT
+     5041 GCTGCAGCTG TCTCAAAGGC TGTTGCTCTT GCGGCTCTTG CTGCAAATTC GATGAGGACG
+     5101 ATTCCGAACC TGTCTTGAAG GGTGTCGCGC TCGCTTACAC ATAATGAaag cttatcgata
+     5161 ccgtcgacct cgagggccca gatctaattc accccaccag tgcaggctgc ctatcagaaa
+     5221 gtggtggctg gtgtggctaa tgccctggcc cacaagtatc actaagctcg ctttcttgct
+     5281 gtccaatttc tattaaaggt tcctttgttc cctaagtcca actactaaac tgggggatat
+     5341 tatgaagggc cttgagcatc tggattctgc ctaataaaaa acatttattt tcattgcaat
+     5401 gatgtattta aattatttct gaatatttta ctaaaaaggg aatgtgggag gtcagtgcat
+     5461 ttaaaacata aagaaatgaa gagctagttc aaaccttggg aaaatacact atatcttaaa
+     5521 ctccatgaaa gaaggtgagg ctgcaaacag ctaatgcaca ttggcaacag cccctgatgc
+     5581 ctatgcctta ttcatccctc agaaaaggat tcaagtagag gcttgatttg gaggttaaag
+     5641 ttttgctatg ctgtatttta cattacttat tgttttagct gtcctcatga atgtcttttc
+     5701 actacccatt tgcttatcct gcatctctca gccttgactc cactcagttc tcttgcttag
+     5761 agataccacc tttcccctga agtgttcctt ccatgtttta cggcgagatg gtttctcctc
+     5821 gcctggccac tcagccttag ttgtctctgt tgtcttatag aggtctactt gaagaaggaa
+     5881 aaacaggggg catggtttga ctgtcctgtg agcccttctt ccctgcctcc cccactcaca
+     5941 gtgacccgga atccctcgac atggcagtct agatcattct tgaagacgaa agggcctcgt
+     6001 gatacgccta tttttatagg ttaatgtcat gataataatg gtttcttaga cgtcaggtgg
+     6061 cacttttcgg ggaaatgtgc gcggaacccc tatttgttta tttttctaaa tacattcaaa
+     6121 tatgtatccg ctcatgagac aataaccctg ataaatgctt caataatatt gaaaaaggaa
+     6181 gagtatgagt attcaacatt tccgtgtcgc ccttattccc ttttttgcgg cattttgcct
+     6241 tcctgttttt gctcacccag aaacgctggt gaaagtaaaa gatgctgaag atcagttggg
+     6301 tgcacgagtg ggttacatcg aactggatct caacagcggt aagatccttg agagttttcg
+     6361 ccccgaagaa cgttttccaa tgatgagcac ttttaaagtt ctgctatgtg gcgcggtatt
+     6421 atcccgtatt gacgccgggc aagagcaact cggtcgccgc atacactatt ctcagaatga
+     6481 cttggttgag tactcaccag tcacagaaaa gcatcttacg gatggcatga cagtaagaga
+     6541 attatgcagt gctgccataa ccatgagtga taacactgcg gccaacttac ttctgacaac
+     6601 gatcggagga ccgaaggagc taaccgcttt tttgcacaac atgggggatc atgtaactcg
+     6661 ccttgatcgt tgggaaccgg agctgaatga agccatacca aacgacgagc gtgacaccac
+     6721 gatgcctgta gcaatggcaa caacgttgcg caaactatta actggcgaac tacttactct
+     6781 agcttcccgg caacaattaa tagactggat ggaggcggat aaagttgcag gaccacttct
+     6841 gcgctcggcc cttccggctg gctggtttat tgctgataaa tctggagccg gtgagcgtgg
+     6901 gtctcgcggt atcattgcag cactggggcc agatggtaag ccctcccgta tcgtagttat
+     6961 ctacacgacg gggagtcagg caactatgga tgaacgaaat agacagatcg ctgagatagg
+     7021 tgcctcactg attaagcatt ggtaactgtc agaccaagtt tactcatata tactttagat
+     7081 tgatttaaaa cttcattttt aatttaaaag gatctaggtg aagatccttt ttgataatct
+     7141 catgaccaaa atcccttaac gtgagttttc gttccactga gcgtcagacc ccgtagaaaa
+     7201 gatcaaagga tcttcttgag atcctttttt tctgcgcgta atctgctgct tgcaaacaaa
+     7261 aaaaccaccg ctaccagcgg tggtttgttt gccggatcaa gagctaccaa ctctttttcc
+     7321 gaaggtaact ggcttcagca gagcgcagat accaaatact gttcttctag tgtagccgta
+     7381 gttaggccac cacttcaaga actctgtagc accgcctaca tacctcgctc tgctaatcct
+     7441 gttaccagtg gctgctgcca gtggcgataa gtcgtgtctt accgggttgg actcaagacg
+     7501 atagttaccg gataaggcgc agcggtcggg ctgaacgggg ggttcgtgca cacagcccag
+     7561 cttggagcga acgacctaca ccgaactgag atacctacag cgtgagctat gagaaagcgc
+     7621 cacgcttccc gaagggagaa aggcggacag gtatccggta agcggcaggg tcggaacagg
+     7681 agagcgcacg agggagcttc cagggggaaa cgcctggtat ctttatagtc ctgtcgggtt
+     7741 tcgccacctc tgacttgagc gtcgattttt gtgatgctcg tcaggggggc ggagcctatg
+     7801 gaaaaacgcc agcaacggat gcgccgcgtg cggctgctgg agatggcgga cgcgatggat
+     7861 atgttctgcc aagggttggt ttgcgcattc acagttctcc gcaagaattg attggctcca
+     7921 attcttggag tggtgaatcc gttagcgagg tgccgccggc ttccattcag gtcgaggtgg
+     7981 cccggctcca tgcaccgcga cgcaacgcgg ggaggcagac aaggtatagg gcggcgccta
+     8041 caatccatgc caacccgttc catgtgctcg ccgaggcggc ataaatcccc gtgacgatca
+     8101 gcggtccaat gatcgaagtt aggctggtaa gagccgcgag cgatccttga agctgtccct
+     8161 gatggtcgtc atctacctgc ctggacagca tggcctgcaa cgcgggcatc ccgatgccgc
+     8221 cggaagcgag aagaatcata atggggaagg ccatccagcc tcgcgtcggg gagctttttg
+     8281 caaaagccta ggcctccaaa aaagcctcct cactacttct ggaatagctc agaggccgag
+     8341 gcggcctcgg cctctgcata aataaaaaaa attagtcagc catg 
+//

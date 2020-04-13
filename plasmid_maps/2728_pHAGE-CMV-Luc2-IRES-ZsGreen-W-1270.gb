@@ -1,0 +1,641 @@
+LOCUS       2728_pHAGE_CMV_L        9369 bp    DNA        circular     06-APR-2020
+DEFINITION  .
+ACCESSION   urn.local...dj-9dnkrff                                             
+VERSION     urn.local...dj-9dnkrff                                             
+SOURCE      Unknown (Unknown.)                                                 
+  ORGANISM  Unknown Unclassified.                                              
+COMMENT     Plasmid from Alex Balazs's group.
+COMMENT     
+COMMENT     Balazs Lab comment: HRST Ligated into PUC WPRE fixed Changed cPPT
+            to include SpeI site for cloning promoters cloned in clean CMV
+            promoter without extraneous sequence 9/19/03 Completely sequenced
+            with 4x coverage to confirm perfect sequence 10/08/03 Mutations
+            found in IRES Element Between BamHI and NdeI sites 11/03/03 After
+            Re-cloning the IRES from TOPO vector sequence is now confirmed to
+            be perfect (IRES contains 7As at one point which seems to only be
+            6As in MCV genome) 11/13/03 Confirmed shortened cloning to add
+            SmaI/PacI and tag 1/27/04 Confirmed perfect second position ZsGreen
+            sequence with multiple oligos 5/24/04 Sequencing confirmed perfect
+            cPPT-CMV-DsRed Express region 01/30/08 Sequencing confirms perfect
+            human IL-7 cDNA.
+COMMENT     
+COMMENT     Bloom Lab comment: Received in 03/2020. Sequence confirmed in
+            04/2020.
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     primer_bind     complement(158..179)
+                     /locus_tag="pHAGE-A0050-8050"
+                     /label="pHAGE-A0050-8050"
+                     /ApEinfo_label="pHAGE-A0050-8050"
+                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     5026..5049
+                     /locus_tag="pHAGE 5' CDS 2-2 (Binds IRES)"
+                     /label="pHAGE 5' CDS 2-2 (Binds IRES)"
+                     /ApEinfo_label="pHAGE 5' CDS 2-2 (Binds IRES)"
+                     /ApEinfo_fwdcolor="#faac61"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     7232..7256
+                     /locus_tag="pHAGE-S6501-7000"
+                     /label="pHAGE-S6501-7000"
+                     /ApEinfo_label="pHAGE-S6501-7000"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    6656..6726
+                     /locus_tag="3' Flank"
+                     /label="3' Flank"
+                     /ApEinfo_label="3' Flank"
+                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(8523..8544)
+                     /locus_tag="pHAGE-A7550-7050"
+                     /label="pHAGE-A7550-7050"
+                     /ApEinfo_label="pHAGE-A7550-7050"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     9264..9292
+                     /locus_tag="pHAGE-S1-500"
+                     /label="pHAGE-S1-500"
+                     /ApEinfo_label="pHAGE-S1-500"
+                     /ApEinfo_fwdcolor="#d59687"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(4496..4516)
+                     /locus_tag="pHAGE 3' CDS 1-1 (Binds IRES)"
+                     /label="pHAGE 3' CDS 1-1 (Binds IRES)"
+                     /ApEinfo_label="pHAGE 3' CDS 1-1 (Binds IRES)"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    1..636
+                     /locus_tag="LTR"
+                     /label="LTR"
+                     /ApEinfo_label="LTR"
+                     /ApEinfo_fwdcolor="#b1ff67"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     8256..8280
+                     /locus_tag="pHAGE-S7501-8000"
+                     /label="pHAGE-S7501-8000"
+                     /ApEinfo_label="pHAGE-S7501-8000"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     rep_origin      8051..8584
+                     /locus_tag="ORI"
+                     /label="ORI"
+                     /ApEinfo_label="ORI"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(2084..2112)
+                     /locus_tag="pHAGE-A2050-1550"
+                     /label="pHAGE-A2050-1550"
+                     /ApEinfo_label="pHAGE-A2050-1550"
+                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     6759..6781
+                     /locus_tag="pHAGE-S6001-6500"
+                     /label="pHAGE-S6001-6500"
+                     /ApEinfo_label="pHAGE-S6001-6500"
+                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(4752..4770)
+                     /locus_tag="pHAGE 3' CDS 1-2 (Binds IRES)"
+                     /label="pHAGE 3' CDS 1-2 (Binds IRES)"
+                     /ApEinfo_label="pHAGE 3' CDS 1-2 (Binds IRES)"
+                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     4488..4508
+                     /locus_tag="pHAGE 5' IRES"
+                     /label="pHAGE 5' IRES"
+                     /ApEinfo_label="pHAGE 5' IRES"
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     1898..1922
+                     /locus_tag="pHAGE-S2001-2500"
+                     /label="pHAGE-S2001-2500"
+                     /ApEinfo_label="pHAGE-S2001-2500"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    1..453
+                     /locus_tag="HIV U3"
+                     /label="HIV U3"
+                     /ApEinfo_label="HIV U3"
+                     /ApEinfo_fwdcolor="#faac61"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(5028..5049)
+                     /locus_tag="pHAGE 3' IRES"
+                     /label="pHAGE 3' IRES"
+                     /ApEinfo_label="pHAGE 3' IRES"
+                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    2034..2211
+                     /locus_tag="HIV cpPu (Trip)"
+                     /label="HIV cpPu (Trip)"
+                     /ApEinfo_label="HIV cpPu (Trip)"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     6653..6684
+                     /locus_tag="pHAGE-S4501-5000"
+                     /label="pHAGE-S4501-5000"
+                     /ApEinfo_label="pHAGE-S4501-5000"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    6355..6443
+                     /locus_tag="HIV nef"
+                     /label="HIV nef"
+                     /ApEinfo_label="HIV nef"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(5864..5887)
+                     /locus_tag="pHAGE-A3550-3050"
+                     /label="pHAGE-A3550-3050"
+                     /ApEinfo_label="pHAGE-A3550-3050"
+                     /ApEinfo_fwdcolor="#d59687"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     8759..8778
+                     /locus_tag="pHAGE-S8001-8500"
+                     /label="pHAGE-S8001-8500"
+                     /ApEinfo_label="pHAGE-S8001-8500"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    552..636
+                     /locus_tag="HIV U5"
+                     /label="HIV U5"
+                     /ApEinfo_label="HIV U5"
+                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     1391..1417
+                     /locus_tag="pHAGE-S1501-2000"
+                     /label="pHAGE-S1501-2000"
+                     /ApEinfo_label="pHAGE-S1501-2000"
+                     /ApEinfo_fwdcolor="#faac61"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     CDS             6983..7822
+                     /locus_tag="AMPr"
+                     /label="AMPr"
+                     /ApEinfo_label="AMPr"
+                     /ApEinfo_fwdcolor="#d59687"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     401..421
+                     /locus_tag="pHAGE-S501-1000"
+                     /label="pHAGE-S501-1000"
+                     /ApEinfo_label="pHAGE-S501-1000"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(8999..9025)
+                     /locus_tag="pHAGE-A8050-7550"
+                     /label="pHAGE-A8050-7550"
+                     /ApEinfo_label="pHAGE-A8050-7550"
+                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     898..919
+                     /locus_tag="pHAGE-S1001-1500"
+                     /label="pHAGE-S1001-1500"
+                     /ApEinfo_label="pHAGE-S1001-1500"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(667..690)
+                     /locus_tag="pHAGE-A0550-0050"
+                     /label="pHAGE-A0550-0050"
+                     /ApEinfo_label="pHAGE-A0550-0050"
+                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(1166..1189)
+                     /locus_tag="pHAGE-A1050-0550"
+                     /label="pHAGE-A1050-0550"
+                     /ApEinfo_label="pHAGE-A1050-0550"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    636..658
+                     /locus_tag="PBS-K"
+                     /label="PBS-K"
+                     /ApEinfo_label="PBS-K"
+                     /ApEinfo_fwdcolor="#9eafd2"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(8012..8033)
+                     /locus_tag="pHAGE-A7050-6550"
+                     /label="pHAGE-A7050-6550"
+                     /ApEinfo_label="pHAGE-A7050-6550"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    807..1144
+                     /locus_tag="HR-ePSI"
+                     /label="HR-ePSI"
+                     /ApEinfo_label="HR-ePSI"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    8821..8944
+                     /locus_tag="SV40 ori"
+                     /label="SV40 ori"
+                     /ApEinfo_label="SV40 ori"
+                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    1303..1536
+                     /locus_tag="RRE"
+                     /label="RRE"
+                     /ApEinfo_label="RRE"
+                     /ApEinfo_fwdcolor="#d6b295"
+                     /ApEinfo_revcolor="#d6b295"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    6573..6655
+                     /locus_tag="HIV U5(1)"
+                     /label="HIV U5(1)"
+                     /ApEinfo_label="HIV U5"
+                     /ApEinfo_fwdcolor="#b1ff67"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    6930..6964
+                     /locus_tag="P-Bla"
+                     /label="P-Bla"
+                     /ApEinfo_label="P-Bla"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    637..1155
+                     /locus_tag="PSI"
+                     /label="PSI"
+                     /ApEinfo_label="PSI"
+                     /ApEinfo_fwdcolor="#d6b295"
+                     /ApEinfo_revcolor="#d6b295"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    2218..2802
+                     /locus_tag="CMVp"
+                     /label="CMVp"
+                     /ApEinfo_label="CMVp"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     CDS             2812..4464
+                     /locus_tag="Luc2"
+                     /label="Luc2"
+                     /ApEinfo_label="Luc2"
+                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    454..551
+                     /locus_tag="HIV R"
+                     /label="HIV R"
+                     /ApEinfo_label="HIV R"
+                     /ApEinfo_fwdcolor="#9eafd2"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(7501..7524)
+                     /locus_tag="pHAGE-A6550-6050"
+                     /label="pHAGE-A6550-6050"
+                     /ApEinfo_label="pHAGE-A6550-6050"
+                     /ApEinfo_fwdcolor="#c7b0e3"
+                     /ApEinfo_revcolor="#c7b0e3"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     6017..6037
+                     /locus_tag="pHAGE-S4001-4500"
+                     /label="pHAGE-S4001-4500"
+                     /ApEinfo_label="pHAGE-S4001-4500"
+                     /ApEinfo_fwdcolor="#faac61"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     7752..7776
+                     /locus_tag="pHAGE-S7001-7500"
+                     /label="pHAGE-S7001-7500"
+                     /ApEinfo_label="pHAGE-S7001-7500"
+                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(1650..1678)
+                     /locus_tag="pHAGE-A1550-1050"
+                     /label="pHAGE-A1550-1050"
+                     /ApEinfo_label="pHAGE-A1550-1050"
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     CDS             5050..5745
+                     /locus_tag="ZsGreen"
+                     /label="ZsGreen"
+                     /ApEinfo_label="ZsGreen"
+                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    5758..6349
+                     /locus_tag="WPRE"
+                     /label="WPRE"
+                     /ApEinfo_label="WPRE"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    6420..6655
+                     /locus_tag="dU3 LTR"
+                     /label="dU3 LTR"
+                     /ApEinfo_label="dU3 LTR"
+                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(6345..6367)
+                     /locus_tag="pHAGE-A4050-3550"
+                     /label="pHAGE-A4050-3550"
+                     /ApEinfo_label="pHAGE-A4050-3550"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    6457..6572
+                     /locus_tag="HIV R(1)"
+                     /label="HIV R(1)"
+                     /ApEinfo_label="HIV R"
+                     /ApEinfo_fwdcolor="#d6b295"
+                     /ApEinfo_revcolor="#d6b295"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(5786..5820)
+                     /locus_tag="pHAGE 3' CDS"
+                     /label="pHAGE 3' CDS"
+                     /ApEinfo_label="pHAGE 3' CDS"
+                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     modified_base   6468..6468
+                     /locus_tag="Difference from 5' LTR"
+                     /label="Difference from 5' LTR"
+                     /ApEinfo_label="Difference from 5' LTR"
+                     /ApEinfo_fwdcolor="#faac61"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     complement(7032..7055)
+                     /locus_tag="pHAGE-A6050-5550"
+                     /label="pHAGE-A6050-5550"
+                     /ApEinfo_label="pHAGE-A6050-5550"
+                     /ApEinfo_fwdcolor="#b4abac"
+                     /ApEinfo_revcolor="#b4abac"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer_bind     4752..4770
+                     /locus_tag="pHAGE 5' CDS 2-1 Start (Binds IRES)"
+                     /label="pHAGE 5' CDS 2-1 Start (Binds IRES)"
+                     /ApEinfo_label="pHAGE 5' CDS 2-1 Start (Binds IRES)"
+                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_structure  4472..5049
+                     /locus_tag="IRES"
+                     /label="IRES"
+                     /ApEinfo_label="IRES"
+                     /ApEinfo_fwdcolor="#d59687"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     misc_feature    697..806
+                     /locus_tag="HIV-PSI"
+                     /label="HIV-PSI"
+                     /ApEinfo_label="HIV-PSI"
+                     /ApEinfo_fwdcolor="#9eafd2"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     primer          complement(4546..4563)
+                     /note="sequence: aagacggcaatatggtgg"
+                     /locus_tag="seq-1270-IRES-R"
+                     /label="seq-1270-IRES-R"
+                     /ApEinfo_label="seq-1270-IRES-R"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+ORIGIN
+        1 tggaagggct aattcactcc caaagaagac aagatatcct tgatctgtgg atctaccaca
+       61 cacaaggcta cttccctgat tagcagaact acacaccagg gccaggggtc agatatccac
+      121 tgacctttgg atggtgctac aagctagtac cagttgagcc agataaggta gaagaggcca
+      181 ataaaggaga gaacaccagc ttgttacacc ctgtgagcct gcatgggatg gatgacccgg
+      241 agagagaagt gttagagtgg aggtttgaca gccgcctagc atttcatcac gtggcccgag
+      301 agctgcatcc ggagtacttc aagaactgct gatatcgagc ttgctacaag ggactttccg
+      361 ctggggactt tccagggagg cgtggcctgg gcgggactgg ggagtggcga gccctcagat
+      421 cctgcatata agcagctgct ttttgcctgt actgggtctc tctggttaga ccagatctga
+      481 gcctgggagc tctctggcta actagggaac ccactgctta agcctcaata aagcttgcct
+      541 tgagtgcttc aagtagtgtg tgcccgtctg ttgtgtgact ctggtaacta gagatccctc
+      601 agaccctttt agtcagtgtg gaaaatctct agcagtggcg cccgaacagg gacttgaaag
+      661 cgaaagggaa accagaggag ctctctcgac gcaggactcg gcttgctgaa gcgcgcacgg
+      721 caagaggcga ggggcggcga ctggtgagta cgccaaaaat tttgactagc ggaggctaga
+      781 aggagagaga tgggtgcgag agcgtcagta ttaagcgggg gagaattaga tcgcgatggg
+      841 aaaaaattcg gttaaggcca gggggaaaga aaaaatataa attaaaacat atagtatggg
+      901 caagcaggga gctagaacga ttcgcagtta atcctggcct gttagaaaca tcagaaggct
+      961 gtagacaaat actgggacag ctacaaccat cccttcagac aggatcagaa gaacttagat
+     1021 cattatataa tacagtagca accctctatt gtgtgcatca aaggatagag ataaaagaca
+     1081 ccaaggaagc tttagacaag atagaggaag agcaaaacaa aagtaagacc accgcacagc
+     1141 aagcggccgg ccgctgatct tcagacctgg aggaggagat atgagggaca attggagaag
+     1201 tgaattatat aaatataaag tagtaaaaat tgaaccatta ggagtagcac ccaccaaggc
+     1261 aaagagaaga gtggtgcaga gagaaaaaag agcagtggga ataggagctt tgttccttgg
+     1321 gttcttggga gcagcaggaa gcactatggg cgcagcgtca atgacgctga cggtacaggc
+     1381 cagacaatta ttgtctggta tagtgcagca gcagaacaat ttgctgaggg ctattgaggc
+     1441 gcaacagcat ctgttgcaac tcacagtctg gggcatcaag cagctccagg caagaatcct
+     1501 ggctgtggaa agatacctaa aggatcaaca gctcctgggg atttggggtt gctctggaaa
+     1561 actcatttgc accactgctg tgccttggaa tgctagttgg agtaataaat ctctggaaca
+     1621 gatttggaat cacacgacct ggatggagtg ggacagagaa attaacaatt acacaagctt
+     1681 aatacactcc ttaattgaag aatcgcaaaa ccagcaagaa aagaatgaac aagaattatt
+     1741 ggaattagat aaatgggcaa gtttgtggaa ttggtttaac ataacaaatt ggctgtggta
+     1801 tataaaatta ttcataatga tagtaggagg cttggtaggt ttaagaatag tttttgctgt
+     1861 actttctata gtgaatagag ttaggcaggg atattcacca ttatcgtttc agacccacct
+     1921 cccaaccccg aggggacccg acaggcccga aggaatagaa gaagaaggtg gagagagaga
+     1981 cagagacaga tccattcgat tagtgaacgg atctcgacgg tatcgccgaa ttcacaaatg
+     2041 gcagtattca tccacaattt taaaagaaaa ggggggattg gggggtacag tgcaggggaa
+     2101 agaatagtag acataatagc aacagacata caaactaaag aattacaaaa acaaattaca
+     2161 aaaattcaaa attttcgggt ttattacagg gacagcagag atccagtttg gactagtgga
+     2221 gttccgcgtt acataactta cggtaaatgg cccgcctggc tgaccgccca acgacccccg
+     2281 cccattgacg tcaataatga cgtatgttcc catagtaacg ccaataggga ctttccattg
+     2341 acgtcaatgg gtggagtatt tacggtaaac tgcccacttg gcagtacatc aagtgtatca
+     2401 tatgccaagt acgcccccta ttgacgtcaa tgacggtaaa tggcccgcct ggcattatgc
+     2461 ccagtacatg accttatggg actttcctac ttggcagtac atctacgtat tagtcatcgc
+     2521 tattaccatg gtgatgcggt tttggcagta catcaatggg cgtggatagc ggtttgactc
+     2581 acggggattt ccaagtctcc accccattga cgtcaatggg agtttgtttt ggcaccaaaa
+     2641 tcaacgggac tttccaaaat gtcgtaacaa ctccgcccca ttgacgcaaa tgggcggtag
+     2701 gcgtgtacgg tgggaggtct atataagcag agctcgttta gtgaaccgtc agatcgcctg
+     2761 gagacgccat ccacgctgtt ttgacctcca tagaagacac cggcggccgc catggaagat
+     2821 gccaaaaaca ttaagaaggg cccagcgcca ttctacccac tcgaagacgg gaccgccggc
+     2881 gagcagctgc acaaagccat gaagcgctac gccctggtgc ccggcaccat cgcctttacc
+     2941 gacgcacata tcgaggtgga cattacctac gccgagtact tcgagatgag cgttcggctg
+     3001 gcagaagcta tgaagcgcta tgggctgaat acaaaccatc ggatcgtggt gtgcagcgag
+     3061 aatagcttgc agttcttcat gcccgtgttg ggtgccctgt tcatcggtgt ggctgtggcc
+     3121 ccagctaacg acatctacaa cgagcgcgag ctgctgaaca gcatgggcat cagccagccc
+     3181 accgtcgtat tcgtgagcaa gaaagggctg caaaagatcc tcaacgtgca aaagaagcta
+     3241 ccgatcatac aaaagatcat catcatggat agcaagaccg actaccaggg cttccaaagc
+     3301 atgtacacct tcgtgacttc ccatttgcca cccggcttca acgagtacga cttcgtgccc
+     3361 gagagcttcg accgggacaa aaccatcgcc ctgatcatga acagtagtgg cagtaccgga
+     3421 ttgcccaagg gcgtagccct accgcaccgc accgcttgtg tccgattcag tcatgcccgc
+     3481 gaccccatct tcggcaacca gatcatcccc gacaccgcta tcctcagcgt ggtgccattt
+     3541 caccacggct tcggcatgtt caccacgctg ggctacttga tctgcggctt tcgggtcgtg
+     3601 ctcatgtacc gcttcgagga ggagctattc ttgcgcagct tgcaagacta taagattcaa
+     3661 tctgccctgc tggtgcccac actatttagc ttcttcgcta agagcactct catcgacaag
+     3721 tacgacctaa gcaacttgca cgagatcgcc agcggcgggg cgccgctcag caaggaggta
+     3781 ggtgaggccg tggccaaacg cttccaccta ccaggcatcc gccagggcta cggcctgaca
+     3841 gaaacaacca gcgccattct gatcaccccc gaaggggacg acaagcctgg cgcagtaggc
+     3901 aaggtggtgc ccttcttcga ggctaaggtg gtggacttgg acaccggtaa gacactgggt
+     3961 gtgaaccagc gcggcgagct gtgcgtccgt ggccccatga tcatgagcgg ctacgttaac
+     4021 aaccccgagg ctacaaacgc tctcatcgac aaggacggct ggctgcacag cggcgacatc
+     4081 gcctactggg acgaggacga gcacttcttc atcgtggacc ggctgaagag cctgatcaaa
+     4141 tacaagggct accaggtagc cccagccgaa ctggagagca tcctgctgca acaccccaac
+     4201 atcttcgacg ccggggtcgc cggcctgccc gacgacgatg ccggcgagct gcccgccgca
+     4261 gtcgtcgtgc tggaacacgg taaaaccatg accgagaagg agatcgtgga ctatgtggcc
+     4321 agccaggtta caaccgccaa gaagctgcgc ggtggtgttg tgttcgtgga cgaggtgcct
+     4381 aaaggactga ccggcaagtt ggacgcccgc aagatccgcg agattctcat taaggccaag
+     4441 aagggcggca agatcgccgt gtaaaggatc cctccccccc ccctaacgtt actggccgaa
+     4501 gccgcttgga ataaggccgg tgtgcgtttg tctatatgtt attttccacc atattgccgt
+     4561 cttttggcaa tgtgagggcc cggaaacctg gccctgtctt cttgacgagc attcctaggg
+     4621 gtctttcccc tctcgccaaa ggaatgcaag gtctgttgaa tgtcgtgaag gaagcagttc
+     4681 ctctggaagc ttcttgaaga caaacaacgt ctgtagcgac cctttgcagg cagcggaacc
+     4741 ccccacctgg cgacaggtgc ctctgcggcc aaaagccacg tgtataagat acacctgcaa
+     4801 aggcggcaca accccagtgc cacgttgtga gttggatagt tgtggaaaga gtcaaatggc
+     4861 tctcctcaag cgtattcaac aaggggctga aggatgccca gaaggtaccc cattgtatgg
+     4921 gatctgatct ggggcctcgg tgcacatgct ttacatgtgt ttagtcgagg ttaaaaaaac
+     4981 gtctaggccc cccgaaccac ggggacgtgg ttttcctttg aaaaacacga tgataatatg
+     5041 gccacacata tggcccagtc caagcacggc ctgaccaagg agatgaccat gaagtaccgc
+     5101 atggagggct gcgtggacgg ccacaagttc gtgatcaccg gcgagggcat cggctacccc
+     5161 ttcaagggca agcaggccat caacctgtgc gtggtggagg gcggcccctt gcccttcgcc
+     5221 gaggacatct tgtccgccgc cttcatgtac ggcaaccgcg tgttcaccga gtacccccag
+     5281 gacatcgtcg actacttcaa gaactcctgc cccgccggct acacctggga ccgctccttc
+     5341 ctgttcgagg acggcgccgt gtgcatctgc aacgccgaca tcaccgtgag cgtggaggag
+     5401 aactgcatgt accacgagtc caagttctac ggcgtgaact tccccgccga cggccccgtg
+     5461 atgaagaaga tgaccgacaa ctgggagccc tcctgcgaga agatcatccc cgtgcccaag
+     5521 cagggcatct tgaagggcga cgtgagcatg tacctgctgc tgaaggacgg tggccgcttg
+     5581 cgctgccagt tcgacaccgt gtacaaggcc aagtccgtgc cccgcaagat gcccgactgg
+     5641 cacttcatcc agcacaagct gacccgcgag gaccgcagcg acgccaagaa ccagaagtgg
+     5701 cacctgaccg agcacgccat cgcctccggc tccgccttgc cctgaatcga tagatcctaa
+     5761 tcaacctctg gattacaaaa tttgtgaaag attgactggt attcttaact atgttgctcc
+     5821 ttttacgcta tgtggatacg ctgctttaat gcctttgtat catgctattg cttcccgtat
+     5881 ggctttcatt ttctcctcct tgtataaatc ctggttgctg tctctttatg aggagttgtg
+     5941 gcccgttgtc aggcaacgtg gcgtggtgtg cactgtgttt gctgacgcaa cccccactgg
+     6001 ttggggcatt gccaccacct gtcagctcct ttccgggact ttcgctttcc ccctccctat
+     6061 tgccacggcg gaactcatcg ccgcctgcct tgcccgctgc tggacagggg ctcggctgtt
+     6121 gggcactgac aattccgtgg tgttgtcggg gaaatcatcg tcctttcctt ggctgctcgc
+     6181 ctgtgttgcc acctggattc tgcgcgggac gtccttctgc tacgtccctt cggccctcaa
+     6241 tccagcggac cttccttccc gcggcctgct gccggctctg cggcctcttc cgcgtcttcg
+     6301 ccttcgccct cagacgagtc ggatctccct ttgggccgcc tccccgcctg agatccttta
+     6361 agaccaatga cttacaaggc agctgtagat cttagccact ttttaaaaga aaagggggga
+     6421 ctggaagggc taattcactc ccaacgaaga caagatctgc tttttgcttg tactgggtct
+     6481 ctctggttag accagatctg agcctgggag ctctctggct aactagggaa cccactgctt
+     6541 aagcctcaat aaagcttgcc ttgagtgctt caagtagtgt gtgcccgtct gttgtgtgac
+     6601 tctggtaact agagatccct cagacccttt tagtcagtgt ggaaaatctc tagcagtagt
+     6661 agttcatgtc atcttattat tcagtattta taacttgcaa agaaatgaat atcagagagt
+     6721 gagaggcccg ggttaattaa ggaaagggct agatcattct tgaagacgaa agggcctcgt
+     6781 gatacgccta tttttatagg ttaatgtcat gataataatg gtttcttaga cgtcaggtgg
+     6841 cacttttcgg ggaaatgtgc gcggaacccc tatttgttta tttttctaaa tacattcaaa
+     6901 tatgtatccg ctcatgagac aataaccctg ataaatgctt caataatatt gaaaaaggaa
+     6961 gagtatgagt attcaacatt tccgtgtcgc ccttattccc ttttttgcgg cattttgcct
+     7021 tcctgttttt gctcacccag aaacgctggt gaaagtaaaa gatgctgaag atcagttggg
+     7081 tgcacgagtg ggttacatcg aactggatct caacagcggt aagatccttg agagttttcg
+     7141 ccccgaagaa cgttttccaa tgatgagcac ttttaaagtt ctgctatgtg gcgcggtatt
+     7201 atcccgtgtt gacgccgggc aagagcaact cggtcgccgc atacactatt ctcagaatga
+     7261 cttggttgag tactcaccag tcacagaaaa gcatcttacg gatggcatga cagtaagaga
+     7321 attatgcagt gctgccataa ccatgagtga taacactgcg gccaacttac ttctgacaac
+     7381 gatcggagga ccgaaggagc taaccgcttt tttgcacaac atgggggatc atgtaactcg
+     7441 ccttgatcgt tgggaaccgg agctgaatga agccatacca aacgacgagc gtgacaccac
+     7501 gatgcctgta gcaatggcaa caacgttgcg caaactatta actggcgaac tacttactct
+     7561 agcttcccgg caacaattaa tagactggat ggaggcggat aaagttgcag gaccacttct
+     7621 gcgctcggcc cttccggctg gctggtttat tgctgataaa tctggagccg gtgagcgtgg
+     7681 gtctcgcggt atcattgcag cactggggcc agatggtaag ccctcccgta tcgtagttat
+     7741 ctacacgacg gggagtcagg caactatgga tgaacgaaat agacagatcg ctgagatagg
+     7801 tgcctcactg attaagcatt ggtaactgtc agaccaagtt tactcatata tactttagat
+     7861 tgatttaaaa cttcattttt aatttaaaag gatctaggtg aagatccttt ttgataatct
+     7921 catgaccaaa atcccttaac gtgagttttc gttccactga gcgtcagacc ccgtagaaaa
+     7981 gatcaaagga tcttcttgag atcctttttt tctgcgcgta atctgctgct tgcaaacaaa
+     8041 aaaaccaccg ctaccagcgg tggtttgttt gccggatcaa gagctaccaa ctctttttcc
+     8101 gaaggtaact ggcttcagca gagcgcagat accaaatact gttcttctag tgtagccgta
+     8161 gttaggccac cacttcaaga actctgtagc accgcctaca tacctcgctc tgctaatcct
+     8221 gttaccagtg gctgctgcca gtggcgataa gtcgtgtctt accgggttgg actcaagacg
+     8281 atagttaccg gataaggcgc agcggtcggg ctgaacgggg ggttcgtgca cacagcccag
+     8341 cttggagcga acgacctaca ccgaactgag atacctacag cgtgagctat gagaaagcgc
+     8401 cacgcttccc gaagggagaa aggcggacag gtatccggta agcggcaggg tcggaacagg
+     8461 agagcgcacg agggagcttc cagggggaaa cgcctggtat ctttatagtc ctgtcgggtt
+     8521 tcgccacctc tgacttgagc gtcgattttt gtgatgctcg tcaggggggc ggagcctatg
+     8581 gaaaaacgcc agcaacgcgg cctttttacg gttcctggcc ttttgctggc cttttgctca
+     8641 catgttcttt cctgcgttat cccctgattc tgtggataac cgtattaccg cctttgagtg
+     8701 agctgatacc gctcgccgca gccgaacgac cgagcgcagc gagtcagtga gcgaggaagc
+     8761 ggaagagcgc ccaatacgca aaccgcctct ccccgcgcgt tggccgattc attaatgcag
+     8821 caagctcatg gctgactaat tttttttatt tatgcagagg ccgaggccgc ctcggcctct
+     8881 gagctattcc agaagtagtg aggaggcttt tttggaggcc taggcttttg caaaaagctc
+     8941 cccgtggcac gacaggtttc ccgactggaa agcgggcagt gagcgcaacg caattaatgt
+     9001 gagttagctc actcattagg caccccaggc tttacacttt atgcttccgg ctcgtatgtt
+     9061 gtgtggaatt gtgagcggat aacaatttca cacaggaaac agctatgaca tgattacgaa
+     9121 tttcacaaat aaagcatttt tttcactgca ttctagttgt ggtttgtcca aactcatcaa
+     9181 tgtatcttat catgtctgga tcaactggat aactcaagct aaccaaaatc atcccaaact
+     9241 tcccacccca taccctatta ccactgccaa ttacctgtgg tttcatttac tctaaacctg
+     9301 tgattcctct gaattatttt cattttaaag aaattgtatt tgttaaatat gtactacaaa
+     9361 cttagtagt     
+//

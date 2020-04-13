@@ -1,0 +1,2087 @@
+LOCUS       HDM-tat1b               4829 bp    DNA     circular SYN  5-JAN-2008
+DEFINITION  HIV tat 1b in HDM.
+SOURCE      
+  ORGANISM  
+REFERENCE   1  (bases 1 to        4829)
+  AUTHORS   GRAY JT
+  TITLE     Direct Submission
+  JOURNAL   Submitted (1-May-2003) John T. Gray
+            Telephone: (617) 432-1249
+            E-mail: gray@hihg.med.harvard.edu
+            Harvard Gene Therapy Initiative
+            Vector Core Lab, Room 412
+            Harvard Institutes for Medicine
+            77 Avenue Louis Pasteur
+            Boston, MA 02115 USA
+COMMENT     I (Jesse Bloom) received this plasmid from Alex Balazs to use as a helper plasmid
+            for the PHAGE2 vectors.  It expresses Tat.
+COMMENT     This file is created by Vector NTI
+            http://www.invitrogen.com/
+COMMENT     ORIGDB|GenBank
+COMMENT     VNTDBDATE|470485875|
+COMMENT     LSOWNER|
+COMMENT     VNTNAME|HDM-tat1b|
+COMMENT     VNTAUTHORNAME|Jesse Bloom|
+COMMENT     VNTAUTHOREML|jesse.bloom@gmail.com|
+COMMENT     VNTOAUTHORNAME|Alejandro Balazs|
+COMMENT     VNTREPLTYPE|Plasmid
+COMMENT     Vector_NTI_Display_Data_(Do_Not_Edit!)
+COMMENT     (SXF 
+COMMENT      (CGexDoc "HDM-tat1b" 0 4829 
+COMMENT       (CDBMol 0 0 1 1 1 0 0 0 0 "" "" 0 0 0 0 (CObList) (CObList) (CObList) 
+COMMENT        (CObList) -1 "") 
+COMMENT       (CDocSetData 1 1 0 0 0 0 "MAIN" 1 1 1 1 0 0 1 1 0 1 10 10 4294967295 50 0 
+COMMENT        1 0 (CHomObj 0 0 0 3 75) (CWordArray) (CWordArray) 
+COMMENT        (CStringList "ApaLI" "AvaI" "BamHI" "ClaI" "EcoRI" "HindIII" "NcoI" 
+COMMENT         "PstI" "SmaI" "XmaI") (CStringList "atg" "gtg") 
+COMMENT        (CStringList "taa" "tga" "tag") (CObList) 1 "{(0,1),2}" 0 0 "" 0 
+COMMENT        4294967295 0 0 0 0 0 0 0 "MAIN" 0 0 30 0 
+COMMENT        (CProteinMotifSearchObject 70 20 1 1 1 1 0 0 1 0 0 0 0 0)) 
+COMMENT       (CMolPar 0 0 1 2609 2608 1 4829 0 0 0 0 0 0 0 0) (CStringList) 
+COMMENT       (CStringList) (CObList) (COAPar 25 250 50 0 6 4 3 7) 
+COMMENT       (COAPar 25 250 50 0 6 4 3 7) (COAPar 25 250 50 0 6 4 3 7) 
+COMMENT       (CObList 
+COMMENT        #0=(CRSite (CStringList) "ApaLI" "gtgcac" 2 0 2 2744 0 3990 0 0 "") 
+COMMENT        #1=(CRSite (CStringList) "AvaI" "cycgrg" 2 0 2 1555 0 1613 0 0 "") 
+COMMENT        #2=(CRSite (CStringList) "BamHI" "ggatcc" 2 0 1 1586 0 0 "") 
+COMMENT        #3=(CRSite (CStringList) "ClaI" "atcgat" 3 0 1 1599 0 0 "") 
+COMMENT        #4=(CRSite (CStringList) "EcoRI" "gaattc" 2 0 1 1304 0 0 "") 
+COMMENT        #5=(CRSite (CStringList) "HindIII" "aagctt" 2 0 1 1592 0 0 "") 
+COMMENT        #6=(CRSite (CStringList) "NcoI" "ccatgg" 2 0 1 458 0 0 "") 
+COMMENT        #7=(CRSite (CStringList) "PstI" "ctgcag" 6 0 0 0 "") 
+COMMENT        #8=(CRSite (CStringList) "SmaI" "cccggg" 4 0 0 0 "") 
+COMMENT        #9=(CRSite (CStringList) "XmaI" "cccggg" 2 0 0 0 "")) 
+COMMENT       (CObList 
+COMMENT        #10=(CFSignal (CObList) "B-globin_intron" 21 0 0 779 1254 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "779..1254") 
+COMMENT        #11=(CFSignal (CObList) "polyA_site" 26 0 0 1816 1840 0 (CStringList) 
+COMMENT             (CStringList) 1 1 1 1 "1816..1840") 
+COMMENT        #12=(CFSignal (CObList) "End_of_globin" 21 0 0 2364 2388 0 (CStringList) 
+COMMENT             (CStringList) 1 1 1 1 "2364..2388") 
+COMMENT        #13=(CFSignal (CObList) "bla" 4 0 0 2628 3485 0 (CStringList) 
+COMMENT             (CStringList) 1 1 1 1 "2628..3485") 
+COMMENT        #14=(CFSignal (CObList) "CMV_TATA" 21 0 0 628 679 0 (CStringList) 
+COMMENT             (CStringList) 1 1 1 1 "628..679") 
+COMMENT        #15=(CFSignal (CObList) "SV40_ori" 21 0 0 4717 4829 0 (CStringList) 
+COMMENT             (CStringList) 1 1 1 1 "4717..4829") 
+COMMENT        #16=(CFSignal (CObList) "High_copy" 21 0 0 3784 3827 0 (CStringList) 
+COMMENT             (CStringList) 1 1 1 1 "3784..3827") 
+COMMENT        #17=(CFSignal (CObList) "CMV" 30 0 0 9 679 0 (CStringList) (CStringList) 
+COMMENT             1 1 1 1 "9..679") 
+COMMENT        #18=(CFSignal (CObList) "CMV_5xxUTR" 21 0 0 680 750 0 (CStringList) 
+COMMENT             (CStringList) 1 1 1 1 "680..750") 
+COMMENT        #19=(CFSignal (CObList) "beta_globin_pA" 21 0 0 1629 2388 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "1629..2388") 
+COMMENT        #20=(CFSignal (CObList) "CMV" 30 0 0 96 679 0 (CStringList) 
+COMMENT             (CStringList) 1 1 1 1 "96..679") 
+COMMENT        #21=(CFSignal (CObList) "Correction-143" 21 0 0 2402 2439 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "2402..2439") 
+COMMENT        #22=(CFSignal (CObList) "HGTI-8_Max=618" 28 0 1 4742 4768 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "complement(4742..4768)") 
+COMMENT        #23=(CFSignal (CObList) "HGTI-761_Max=" 28 0 0 692 715 0 (CStringList) 
+COMMENT             (CStringList) 1 1 1 1 "692..715") 
+COMMENT        #24=(CFSignal (CObList) "HGTI-1121_Max=" 28 0 1 1473 1497 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "complement(1473..1497)") 
+COMMENT        #25=(CFSignal (CObList) "HGTI-1192_Max=" 28 0 1 662 703 0 (CStringList) 
+COMMENT             (CStringList) 1 1 1 1 "complement(662..703)") 
+COMMENT        #26=(CFSignal (CObList) "HGTI-1204_Max=311" 28 0 0 617 638 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "617..638") 
+COMMENT        #27=(CFSignal (CObList) "HGTI-1220_Max=162" 28 0 0 612 652 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "612..652") 
+COMMENT        #28=(CFSignal (CObList) "HGTI-1278_Max=0" 28 0 0 1224 1244 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "1224..1244") 
+COMMENT        #29=(CFSignal (CObList) "HGTI-1279_Max=" 28 0 1 1675 1692 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "complement(1675..1692)") 
+COMMENT        #30=(CFSignal (CObList) "HGTI-1732_Max=783" 28 0 0 1209 1243 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "1209..1243") 
+COMMENT        #31=(CFSignal (CObList) "HGTI-1828_Max=662" 28 0 0 4670 4695 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "4670..4695") 
+COMMENT        #32=(CFSignal (CObList) "HGTI-1832_Max=638" 28 0 0 151 178 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "151..178") 
+COMMENT        #33=(CFSignal (CObList) "HGTI-1834_Max=595" 28 0 0 751 775 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "751..775") 
+COMMENT        #34=(CFSignal (CObList) "HGTI-1835_Max=639" 28 0 0 1051 1082 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "1051..1082") 
+COMMENT        #35=(CFSignal (CObList) "HGTI-1843_Max=379" 28 0 0 1798 1826 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "1798..1826") 
+COMMENT        #36=(CFSignal (CObList) "HGTI-1844_Max=643" 28 0 0 2099 2132 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "2099..2132") 
+COMMENT        #37=(CFSignal (CObList) "HGTI-1851_Max=601" 28 0 1 3953 3971 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "complement(3953..3971)") 
+COMMENT        #38=(CFSignal (CObList) "HGTI-1852_Max=372" 28 0 1 3642 3671 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "complement(3642..3671)") 
+COMMENT        #39=(CFSignal (CObList) "HGTI-1853_Max=0" 28 0 1 3350 3371 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "complement(3350..3371)") 
+COMMENT        #40=(CFSignal (CObList) "HGTI-1854_Max=650" 28 0 1 3051 3071 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "complement(3051..3071)") 
+COMMENT        #41=(CFSignal (CObList) "HGTI-1855_Max=661" 28 0 1 2748 2771 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "complement(2748..2771)") 
+COMMENT        #42=(CFSignal (CObList) "HGTI-1856_Max=711" 28 0 1 2441 2471 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "complement(2441..2471)") 
+COMMENT        #43=(CFSignal (CObList) "HGTI-1863_Max=672" 28 0 1 236 260 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "complement(236..260)") 
+COMMENT        #44=(CFSignal (CObList) "HGTI-1864_Max=485" 28 0 1 536 560 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "complement(536..560)") 
+COMMENT        #45=(CFSignal (CObList) "HGTI-1865_Max=636" 28 0 1 833 860 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "complement(833..860)") 
+COMMENT        #46=(CFSignal (CObList) "HGTI-1866_Max=639" 28 0 1 1135 1160 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "complement(1135..1160)") 
+COMMENT        #47=(CFSignal (CObList) "HGTI-1874_Max=692" 28 0 1 1883 1907 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "complement(1883..1907)") 
+COMMENT        #48=(CFSignal (CObList) "HGTI-1875_Max=610" 28 0 1 2178 2208 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "complement(2178..2208)") 
+COMMENT        #49=(CFSignal (CObList) "HGTI-1881_Max=511" 28 0 0 4162 4187 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "4162..4187") 
+COMMENT        #50=(CFSignal (CObList) "HGTI-1882_Max=565" 28 0 0 3862 3889 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "3862..3889") 
+COMMENT        #51=(CFSignal (CObList) "HGTI-1883_Max=564" 28 0 0 3562 3590 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "3562..3590") 
+COMMENT        #52=(CFSignal (CObList) "HGTI-1884_Max=593" 28 0 0 3262 3286 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "3262..3286") 
+COMMENT        #53=(CFSignal (CObList) "HGTI-1885_Max=654" 28 0 0 2962 2989 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "2962..2989") 
+COMMENT        #54=(CFSignal (CObList) "HGTI-1886_Max=647" 28 0 0 2662 2682 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "2662..2682") 
+COMMENT        #55=(CFSignal (CObList) "HGTI-2021_Max=707" 28 0 0 561 593 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "561..593") 
+COMMENT        #56=(CFSignal (CObList) "HGTI-2022_Max=610" 28 0 1 952 981 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "complement(952..981)") 
+COMMENT        #57=(CFSignal (CObList) "HGTI-2144_Max=0" 28 0 0 1226 1253 0 
+COMMENT             (CStringList) (CStringList) 1 1 1 1 "1226..1253") 
+COMMENT        #58=(CFSignal (CObList) "Tat1b" 4 0 0 1325 1585 0 (CStringList) 
+COMMENT             (CStringList) 1 1 1 1 "")) (CObList) (CObList) (CObList) (CObList) 
+COMMENT       (CObList) (CObList) 
+COMMENT       (CTextView 0 
+COMMENT        #59=(CGroupPar (CParagraph 0 (0 0) 1 2 0 0 180) 
+COMMENT             (CObjectList 
+COMMENT              #60=(CRefLinePar 
+COMMENT                   (CLinePar (CParagraph 0 (0 0) 0 2 0 1 233) "HDM-tat1b" 2) 5 
+COMMENT                   "" 0 4) 
+COMMENT              #61=(CFolderPar 
+COMMENT                   (CGroupPar (CParagraph 1 (0 0) 1 1 0 0 178) 
+COMMENT                    (CObjectList 
+COMMENT                     #62=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "DNA Plasmid 'HDM-tat1b'" 1) 
+COMMENT                     #63=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "HIV tat 1b in HDM." 1) 
+COMMENT                     #64=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "Currently local object. Original author: Alejandro Balazs" 
+COMMENT                          1) 
+COMMENT                     #65=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "Creation Date: ? (no data)" 1) 
+COMMENT                     #66=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "Last Modified: 01/05/08 10:31AM" 1) 
+COMMENT                     #67=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "length: 4829 bp" 1) 
+COMMENT                     #68=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "storage type: Basic" 1) 
+COMMENT                     #69=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "form: Circular" 1))) "General Description") 
+COMMENT              #70=(CFolderPar 
+COMMENT                   (CGroupPar (CParagraph 2 (0 0) 1 1 0 0 178) 
+COMMENT                    (CObjectList 
+COMMENT                     #71=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "Original Source Database: GenBank" 1) 
+COMMENT                     #72=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "Division: SYN" 1) 
+COMMENT                     #73=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "Modification Date in the Original DB: 1-May-2003" 1))) 
+COMMENT                   "Standard Fields") 
+COMMENT              #74=(CFolderPar 
+COMMENT                   (CGroupPar (CParagraph 3 (0 0) 1 1 0 0 178) 
+COMMENT                    (CObjectList 
+COMMENT                     #75=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "REFERENCE   1  (bases 1 to        4829)" 1) 
+COMMENT                     #76=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "  AUTHORS   GRAY JT" 1) 
+COMMENT                     #77=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "  TITLE     Direct Submission" 1) 
+COMMENT                     #78=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "  JOURNAL   Submitted (1-May-2003) John T. Gray" 1) 
+COMMENT                     #79=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "            Telephone: (617) 432-1249" 1) 
+COMMENT                     #80=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "            E-mail: gray@hihg.med.harvard.edu" 1) 
+COMMENT                     #81=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "            Harvard Gene Therapy Initiative" 1) 
+COMMENT                     #82=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "            Vector Core Lab, Room 412" 1) 
+COMMENT                     #83=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "            Harvard Institutes for Medicine" 1) 
+COMMENT                     #84=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "            77 Avenue Louis Pasteur" 1) 
+COMMENT                     #85=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "            Boston, MA 02115 USA" 1))) "References") 
+COMMENT              #86=(CFolderPar 
+COMMENT                   (CGroupPar (CParagraph 4 (0 0) 1 1 0 0 178) 
+COMMENT                    (CObjectList 
+COMMENT                     #87=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "Alejandro Balazs" 1))) "Author") 
+COMMENT              #88=(CFolderPar 
+COMMENT                   (CGroupPar (CParagraph 5 (0 0) 1 1 0 0 178) 
+COMMENT                    (CObjectList 
+COMMENT                     #89=(CLinePar (CParagraph 0 (0 0) 1 2 1 0 180) 
+COMMENT                          "Alejandro Balazs" 1))) "Original Author") 
+COMMENT              #90=(CRefLinePar 
+COMMENT                   (CLinePar (CParagraph 0 (0 0) 0 2 0 0 233) "Comments" 2) 1 "" 
+COMMENT                   0 0) 
+COMMENT              #91=(CFolderPar 
+COMMENT                   (CGroupPar (CParagraph 8 (0 0) 1 2 0 0 178) (CObjectList)) 
+COMMENT                   "Annotations") 
+COMMENT              #92=(CFolderPar 
+COMMENT                   (CGroupPar (CParagraph 12 (6 0) 1 1 0 0 178) 
+COMMENT                    (CObjectList 
+COMMENT                     #93=(CFolderPar 
+COMMENT                          (CGroupPar (CParagraph 4 (7 4 0) 1 1 1 0 178) 
+COMMENT                           (CObjectList 
+COMMENT                            #94=(CFolderPar 
+COMMENT                                 (CGroupPar 
+COMMENT                                  (CParagraph 1325 (3 #58# 0) 1 2 2 0 327) 
+COMMENT                                  (CObjectList 
+COMMENT                                   #95=(CLinePar 
+COMMENT                                        (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                        "Start: 1325  End: 1585" 1) 
+COMMENT                                   #96=(CLinePar 
+COMMENT                                        (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                        "HIV Tat Protein" 1))) "Tat1b") 
+COMMENT                            #97=(CFolderPar 
+COMMENT                                 (CGroupPar 
+COMMENT                                  (CParagraph 2628 (3 #13# 0) 1 2 2 0 327) 
+COMMENT                                  (CObjectList 
+COMMENT                                   #98=(CLinePar 
+COMMENT                                        (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                        "Start: 2628  End: 3485" 1) 
+COMMENT                                   #99=(CLinePar 
+COMMENT                                        (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                        "B-lactamase, confers ampicillin resistance, no Pst I." 
+COMMENT                                        1) 
+COMMENT                                   #100=(CLinePar 
+COMMENT                                         (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                         "Original Location Description:" 1) 
+COMMENT                                   #101=(CLinePar 
+COMMENT                                         (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                         "   2628..3485" 1))) "bla"))) 
+COMMENT                          "CDS (2 total)") 
+COMMENT                     #102=(CFolderPar 
+COMMENT                           (CGroupPar (CParagraph 21 (7 21 0) 1 1 1 0 178) 
+COMMENT                            (CObjectList 
+COMMENT                             #103=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 628 (3 #14# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #104=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 628   End: 679 " 1) 
+COMMENT                                     #105=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "CMV TATA box sequences, from -52 to -1.  Wild type, with Sac I site." 
+COMMENT                                           1) 
+COMMENT                                     #106=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #107=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   628..679" 1))) "CMV_TATA") 
+COMMENT                             #108=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 680 (3 #18# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #109=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 680   End: 750 " 1) 
+COMMENT                                     #110=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "5xx untranslated region from CMV immediate early promoter.  The 3 prime end corresponds to the full extent of CMV sequences in the MDM constructs." 
+COMMENT                                           1) 
+COMMENT                                     #111=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #112=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   680..750" 1))) "CMV_5xxUTR") 
+COMMENT                             #113=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 779 (3 #10# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #114=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 779   End: 1254" 1) 
+COMMENT                                     #115=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Human B-globin 2nd intron, Rsa I deleted." 
+COMMENT                                           1) 
+COMMENT                                     #116=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #117=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   779..1254" 1))) "B-globin_intron") 
+COMMENT                             #118=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 1629 (3 #19# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #119=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 1629  End: 2388" 1) 
+COMMENT                                     #120=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "From 3rd exon of human beta globin, contains polyA sequences commonly used in HGTI vector lab constructs." 
+COMMENT                                           1) 
+COMMENT                                     #121=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #122=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   1629..2388" 1))) "beta_globin_pA") 
+COMMENT                             #123=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 2364 (3 #12# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #124=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 2364  End: 2388" 1) 
+COMMENT                                     #125=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "End of globin sequences in typical pMD constructs." 
+COMMENT                                           1) 
+COMMENT                                     #126=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #127=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   2364..2388" 1))) "End_of_globin") 
+COMMENT                             #128=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 2402 (3 #21# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #129=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 2402  End: 2439" 1) 
+COMMENT                                     #130=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Extra EcoR I site of pMD-old-gag-pol.  This sequence is definitely not in all MDM constructs.  Probably only exists in a few older constructs prior to the MDM2b set.  This sequence has been found to be erroneous for some plasmids in our laboratory.  It would be prudent to sequence the DNA to confirm the accuracy of your records.  The sequence specified by this feature was actually found to be:  ACATGGCAGT CTAGAATTCT TGAAGACGAA AGGGCC." 
+COMMENT                                           1) 
+COMMENT                                     #131=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #132=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   2402..2439" 1))) "Correction-143") 
+COMMENT                             #133=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 3784 (3 #16# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #134=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 3784  End: 3827" 1) 
+COMMENT                                     #135=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Tag for High copy plasmid replication xxpUC18xx" 
+COMMENT                                           1) 
+COMMENT                                     #136=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #137=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   3784..3827" 1))) "High_copy") 
+COMMENT                             #138=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 4717 (3 #15# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #139=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 4717  End: 4829" 1) 
+COMMENT                                     #140=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "SV40 5172..41, contains origin of replication, from pMD cassette." 
+COMMENT                                           1) 
+COMMENT                                     #141=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #142=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   4717..4829" 1))) "SV40_ori"))) 
+COMMENT                           "Misc. Feature (8 total)") 
+COMMENT                     #143=(CFolderPar 
+COMMENT                           (CGroupPar (CParagraph 26 (7 26 0) 1 1 1 0 178) 
+COMMENT                            (CObjectList 
+COMMENT                             #144=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 1816 (3 #11# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #145=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 1816  End: 1840" 1) 
+COMMENT                                     #146=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Axxs added after these bases in globin message." 
+COMMENT                                           1) 
+COMMENT                                     #147=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #148=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   1816..1840" 1))) "polyA_site"))) 
+COMMENT                           "PolyA Site (1 total)") 
+COMMENT                     #149=(CFolderPar 
+COMMENT                           (CGroupPar (CParagraph 28 (7 28 0) 1 1 1 0 178) 
+COMMENT                            (CObjectList 
+COMMENT                             #150=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 151 (3 #32# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #151=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 151   End: 178 " 1) 
+COMMENT                                     #152=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 638 bases.  Perfect match Tm = 58.7 C, although only 17 nt are required to match.  The actual sequence of the primer is agttccgcgt tacataactt acggtaaa." 
+COMMENT                                           1) 
+COMMENT                                     #153=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #154=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   151..178" 1))) 
+COMMENT                                   "HGTI-1832_Max=638") 
+COMMENT                             #155=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 236 (3 #43# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #156=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 236   End: 260  (Complementary)" 
+COMMENT                                           1) 
+COMMENT                                     #157=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 672 bases.  Perfect match Tm = 59.1 C, although only 17 nt are required to match.  The actual sequence of the primer is ccctattggc gttactatgg gaaca." 
+COMMENT                                           1) 
+COMMENT                                     #158=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #159=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   complement(236..260)" 1))) 
+COMMENT                                   "HGTI-1863_Max=672") 
+COMMENT                             #160=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 536 (3 #44# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #161=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 536   End: 560  (Complementary)" 
+COMMENT                                           1) 
+COMMENT                                     #162=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 485 bases.  Perfect match Tm = 58.0 C, although only 17 nt are required to match.  The actual sequence of the primer is aaacaaactc ccattgacgt caatg." 
+COMMENT                                           1) 
+COMMENT                                     #163=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #164=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   complement(536..560)" 1))) 
+COMMENT                                   "HGTI-1864_Max=485") 
+COMMENT                             #165=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 561 (3 #55# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #166=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 561   End: 593 " 1) 
+COMMENT                                     #167=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "sequencing pHD from 3xx end  Max recorded sequencing read = 707 bases. Perfect match Tm = 71.5 C, although only 17 nt are required to match.  The actual sequence of the primer is tggcaccaaa atcaacggga ctttccaaaa tgt." 
+COMMENT                                           1) 
+COMMENT                                     #168=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #169=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   561..593" 1))) 
+COMMENT                                   "HGTI-2021_Max=707") 
+COMMENT                             #170=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 612 (3 #27# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #171=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 612   End: 652 " 1) 
+COMMENT                                     #172=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "?  Max recorded sequencing read = 162 bases.  Perfect match Tm = 76.1 C, although only 17 nt are required to match.  The actual sequence of the primer is gcgcactagt catatggtag gcgtgtacgg tgggaggtct a." 
+COMMENT                                           1) 
+COMMENT                                     #173=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #174=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   612..652" 1))) 
+COMMENT                                   "HGTI-1220_Max=162") 
+COMMENT                             #175=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 617 (3 #26# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #176=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 617   End: 638 " 1) 
+COMMENT                                     #177=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Sequencing primers for pHJ1  Max recorded sequencing read = 311 bases. Perfect match Tm = 62.5 C, although only 17 nt are required to match.  The actual sequence of the primer is GCAAATGGGC GGTAGGCGTG TA." 
+COMMENT                                           1) 
+COMMENT                                     #178=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #179=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   617..638" 1))) 
+COMMENT                                   "HGTI-1204_Max=311") 
+COMMENT                             #180=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 662 (3 #25# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #181=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 662   End: 703  (Complementary)" 
+COMMENT                                           1) 
+COMMENT                                     #182=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "linker from SacI of CMV bridging into BglII of HIV R.  Max recorded sequencing read =  bases.  Perfect match Tm = 74.8 C, although only 17 nt are required to match.  The actual sequence of the primer is gatcTGGTCT AACCAGAGAG ACCCcggttc actaaacgAG CT." 
+COMMENT                                           1) 
+COMMENT                                     #183=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #184=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   complement(662..703)" 1))) 
+COMMENT                                   "HGTI-1192_Max=") 
+COMMENT                             #185=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 692 (3 #23# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #186=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 692   End: 715 " 1) 
+COMMENT                                     #187=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "PCR or sequencing primer located in CMV sequence just after 5xx end of RNA transcript.  Max recorded sequencing read =  bases.  Perfect match Tm = 63.9 C, although only 17 nt are required to match.  The actual sequence of the primer is GAGACGCCAT CCACGCTGTT TTGA." 
+COMMENT                                           1) 
+COMMENT                                     #188=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #189=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   692..715" 1))) "HGTI-761_Max=") 
+COMMENT                             #190=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 751 (3 #33# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #191=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 751   End: 775 " 1) 
+COMMENT                                     #192=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 595 bases.  Perfect match Tm = 58.7 C, although only 17 nt are required to match.  The actual sequence of the primer is cctcgaagct gatcctgaga acttc." 
+COMMENT                                           1) 
+COMMENT                                     #193=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #194=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   751..775" 1))) 
+COMMENT                                   "HGTI-1834_Max=595") 
+COMMENT                             #195=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 833 (3 #45# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #196=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 833   End: 860  (Complementary)" 
+COMMENT                                           1) 
+COMMENT                                     #197=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 636 bases.  Perfect match Tm = 59.3 C, although only 17 nt are required to match.  The actual sequence of the primer is tgttacttct ccccttccta tgacatga." 
+COMMENT                                           1) 
+COMMENT                                     #198=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #199=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   complement(833..860)" 1))) 
+COMMENT                                   "HGTI-1865_Max=636") 
+COMMENT                             #200=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 952 (3 #56# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #201=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 952   End: 981  (Complementary)" 
+COMMENT                                           1) 
+COMMENT                                     #202=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "sequencing primer in globin intron facing left.  Max recorded sequencing read = 610 bases.  Perfect match Tm = 53.9 C, although only 17 nt are required to match.  The actual sequence of the primer is gaaagaaaga gattagggaa agtattagaa ." 
+COMMENT                                           1) 
+COMMENT                                     #203=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #204=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   complement(952..981)" 1))) 
+COMMENT                                   "HGTI-2022_Max=610") 
+COMMENT                             #205=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 1051 (3 #34# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #206=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 1051  End: 1082" 1) 
+COMMENT                                     #207=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 639 bases.  Perfect match Tm = 58.2 C, although only 17 nt are required to match.  The actual sequence of the primer is gttaaggcaa tagcaatatt tctgcatata aa." 
+COMMENT                                           1) 
+COMMENT                                     #208=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #209=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   1051..1082" 1))) 
+COMMENT                                   "HGTI-1835_Max=639") 
+COMMENT                             #210=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 1135 (3 #46# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #211=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 1135  End: 1160 (Complementary)" 
+COMMENT                                           1) 
+COMMENT                                     #212=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 639 bases.  Perfect match Tm = 59.3 C, although only 17 nt are required to match.  The actual sequence of the primer is gcagaatggt agctggattg tagctg." 
+COMMENT                                           1) 
+COMMENT                                     #213=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #214=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   complement(1135..1160)" 1))) 
+COMMENT                                   "HGTI-1866_Max=639") 
+COMMENT                             #215=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 1209 (3 #30# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #216=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 1209  End: 1243" 1) 
+COMMENT                                     #217=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "New 5xx sequencing primer for B-globin constructs.  Same position as JSL-70, but longer with a Tm at 66C.  Max recorded sequencing read = 783 bases.  Perfect match Tm = 65.5 C, although only 17 nt are required to match. The actual sequence of the primer is GGCCCTTTTG CTAATCATGT TCATACCTCT TATCT." 
+COMMENT                                           1) 
+COMMENT                                     #218=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #219=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   1209..1243" 1))) 
+COMMENT                                   "HGTI-1732_Max=783") 
+COMMENT                             #220=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 1224 (3 #28# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #221=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 1224  End: 1244" 1) 
+COMMENT                                     #222=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Jeng Shin designed sequencing primer @ 5xx end of MDM2b polylinker facing towards gene.  xx723 is longer, higher Tm versionxx.  Max recorded sequencing read = 0 bases.  Perfect match Tm = 40.3 C, although only 17 nt are required to match.  The actual sequence of the primer is CATGTTCATA CCTCTTATCT T." 
+COMMENT                                           1) 
+COMMENT                                     #223=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #224=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   1224..1244" 1))) 
+COMMENT                                   "HGTI-1278_Max=0") 
+COMMENT                             #225=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 1226 (3 #57# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #226=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 1226  End: 1253" 1) 
+COMMENT                                     #227=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "sFlt clone Add-musFlt-mIg: sequencing ORF  Max recorded sequencing read = 0 bases.  Perfect match Tm = 59.3 C, although only 17 nt are required to match.  The actual sequence of the primer is TGTTCATACC TCTTATCTTC CTCCCACA." 
+COMMENT                                           1) 
+COMMENT                                     #228=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #229=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   1226..1253" 1))) 
+COMMENT                                   "HGTI-2144_Max=0") 
+COMMENT                             #230=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 1473 (3 #24# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #231=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 1473  End: 1497 (Complementary)" 
+COMMENT                                           1) 
+COMMENT                                     #232=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Sequencing primers for HIV strain HXB2 construct.  Max recorded sequencing read =  bases.  Perfect match Tm = 64.9 C, although only 17 nt are required to match.  The actual sequence of the primer is GCTCTTCGTC GCTGTCTCCG CTTCT." 
+COMMENT                                           1) 
+COMMENT                                     #233=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #234=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   complement(1473..1497)" 1))) 
+COMMENT                                   "HGTI-1121_Max=") 
+COMMENT                             #235=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 1675 (3 #29# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #236=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 1675  End: 1692 (Complementary)" 
+COMMENT                                           1) 
+COMMENT                                     #237=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Jeng Shin designed sequencing primer @ 3xx end of MDM2b polylinker facing towards gene.New incarnation is 3149, reordered 1xx29xx01.  Max recorded sequencing read =  bases.  Perfect match Tm = 54.2 C, although only 17 nt are required to match.  The actual sequence of the primer is gccagggcat tagccaca." 
+COMMENT                                           1) 
+COMMENT                                     #238=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #239=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   complement(1675..1692)" 1))) 
+COMMENT                                   "HGTI-1279_Max=") 
+COMMENT                             #240=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 1798 (3 #35# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #241=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 1798  End: 1826" 1) 
+COMMENT                                     #242=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 379 bases.  Perfect match Tm = 59.8 C, although only 17 nt are required to match.  The actual sequence of the primer is agcatctgga ttctgcctaa taaaaaaca." 
+COMMENT                                           1) 
+COMMENT                                     #243=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #244=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   1798..1826" 1))) 
+COMMENT                                   "HGTI-1843_Max=379") 
+COMMENT                             #245=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 1883 (3 #47# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #246=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 1883  End: 1907 (Complementary)" 
+COMMENT                                           1) 
+COMMENT                                     #247=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 692 bases.  Perfect match Tm = 58.1 C, although only 17 nt are required to match.  The actual sequence of the primer is ttaaatgcac tgacctccca cattc." 
+COMMENT                                           1) 
+COMMENT                                     #248=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #249=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   complement(1883..1907)" 1))) 
+COMMENT                                   "HGTI-1874_Max=692") 
+COMMENT                             #250=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 2099 (3 #36# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #251=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 2099  End: 2132" 1) 
+COMMENT                                     #252=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 643 bases.  Perfect match Tm = 59.1 C, although only 17 nt are required to match.  The actual sequence of the primer is ttttacatta cttattgttt tagctgtcct catg." 
+COMMENT                                           1) 
+COMMENT                                     #253=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #254=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   2099..2132" 1))) 
+COMMENT                                   "HGTI-1844_Max=643") 
+COMMENT                             #255=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 2178 (3 #48# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #256=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 2178  End: 2208 (Complementary)" 
+COMMENT                                           1) 
+COMMENT                                     #257=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 610 bases.  Perfect match Tm = 59.5 C, although only 17 nt are required to match.  The actual sequence of the primer is tatctctaag caagagaact gagtggagtc a." 
+COMMENT                                           1) 
+COMMENT                                     #258=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #259=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   complement(2178..2208)" 1))) 
+COMMENT                                   "HGTI-1875_Max=610") 
+COMMENT                             #260=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 2441 (3 #42# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #261=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 2441  End: 2471 (Complementary)" 
+COMMENT                                           1) 
+COMMENT                                     #262=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 711 bases.  Perfect match Tm = 58.3 C, although only 17 nt are required to match.  The actual sequence of the primer is gacattaacc tataaaaata ggcgtatcac g." 
+COMMENT                                           1) 
+COMMENT                                     #263=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #264=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   complement(2441..2471)" 1))) 
+COMMENT                                   "HGTI-1856_Max=711") 
+COMMENT                             #265=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 2662 (3 #54# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #266=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 2662  End: 2682" 1) 
+COMMENT                                     #267=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 647 bases.  Perfect match Tm = 60.2 C, although only 17 nt are required to match.  The actual sequence of the primer is ccttttttgc ggcattttgc c." 
+COMMENT                                           1) 
+COMMENT                                     #268=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #269=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   2662..2682" 1))) 
+COMMENT                                   "HGTI-1886_Max=647") 
+COMMENT                             #270=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 2748 (3 #41# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #271=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 2748  End: 2771 (Complementary)" 
+COMMENT                                           1) 
+COMMENT                                     #272=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 661 bases.  Perfect match Tm = 58.0 C, although only 17 nt are required to match.  The actual sequence of the primer is atccagttcg atgtaaccca ctcg." 
+COMMENT                                           1) 
+COMMENT                                     #273=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #274=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   complement(2748..2771)" 1))) 
+COMMENT                                   "HGTI-1855_Max=661") 
+COMMENT                             #275=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 2962 (3 #53# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #276=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 2962  End: 2989" 1) 
+COMMENT                                     #277=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 654 bases.  Perfect match Tm = 60.0 C, although only 17 nt are required to match.  The actual sequence of the primer is cggatggcat gacagtaaga gaattatg." 
+COMMENT                                           1) 
+COMMENT                                     #278=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #279=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   2962..2989" 1))) 
+COMMENT                                   "HGTI-1885_Max=654") 
+COMMENT                             #280=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 3051 (3 #40# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #281=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 3051  End: 3071 (Complementary)" 
+COMMENT                                           1) 
+COMMENT                                     #282=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 650 bases.  Perfect match Tm = 58.4 C, although only 17 nt are required to match.  The actual sequence of the primer is agcggttagc tccttcggtc c." 
+COMMENT                                           1) 
+COMMENT                                     #283=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #284=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   complement(3051..3071)" 1))) 
+COMMENT                                   "HGTI-1854_Max=650") 
+COMMENT                             #285=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 3262 (3 #52# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #286=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 3262  End: 3286" 1) 
+COMMENT                                     #287=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 593 bases.  Perfect match Tm = 59.6 C, although only 17 nt are required to match.  The actual sequence of the primer is ataaagttgc aggaccactt ctgcg." 
+COMMENT                                           1) 
+COMMENT                                     #288=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #289=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   3262..3286" 1))) 
+COMMENT                                   "HGTI-1884_Max=593") 
+COMMENT                             #290=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 3350 (3 #39# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #291=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 3350  End: 3371 (Complementary)" 
+COMMENT                                           1) 
+COMMENT                                     #292=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 0 bases.  Perfect match Tm = 61.0 C, although only 17 nt are required to match.  The actual sequence of the primer is ccccagtgct gcaatgatac cg." 
+COMMENT                                           1) 
+COMMENT                                     #293=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #294=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   complement(3350..3371)" 1))) 
+COMMENT                                   "HGTI-1853_Max=0") 
+COMMENT                             #295=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 3562 (3 #51# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #296=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 3562  End: 3590" 1) 
+COMMENT                                     #297=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 564 bases.  Perfect match Tm = 58.2 C, although only 17 nt are required to match.  The actual sequence of the primer is tgaagatcct ttttgataat ctcatgacc." 
+COMMENT                                           1) 
+COMMENT                                     #298=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #299=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   3562..3590" 1))) 
+COMMENT                                   "HGTI-1883_Max=564") 
+COMMENT                             #300=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 3642 (3 #38# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #301=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 3642  End: 3671 (Complementary)" 
+COMMENT                                           1) 
+COMMENT                                     #302=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 372 bases.  Perfect match Tm = 58.8 C, although only 17 nt are required to match.  The actual sequence of the primer is aaaaggatct caagaagatc ctttgatctt ." 
+COMMENT                                           1) 
+COMMENT                                     #303=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #304=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   complement(3642..3671)" 1))) 
+COMMENT                                   "HGTI-1852_Max=372") 
+COMMENT                             #305=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 3862 (3 #50# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #306=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 3862  End: 3889" 1) 
+COMMENT                                     #307=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 565 bases.  Perfect match Tm = 60.5 C, although only 17 nt are required to match.  The actual sequence of the primer is catacctcgc tctgctaatc ctgttacc." 
+COMMENT                                           1) 
+COMMENT                                     #308=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #309=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   3862..3889" 1))) 
+COMMENT                                   "HGTI-1882_Max=565") 
+COMMENT                             #310=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 3953 (3 #37# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #311=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 3953  End: 3971 (Complementary)" 
+COMMENT                                           1) 
+COMMENT                                     #312=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 601 bases.  Perfect match Tm = 60.1 C, although only 17 nt are required to match.  The actual sequence of the primer is cgaccgctgc gccttatcc." 
+COMMENT                                           1) 
+COMMENT                                     #313=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #314=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   complement(3953..3971)" 1))) 
+COMMENT                                   "HGTI-1851_Max=601") 
+COMMENT                             #315=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 4162 (3 #49# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #316=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 4162  End: 4187" 1) 
+COMMENT                                     #317=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 511 bases.  Perfect match Tm = 59 C, although only 17 nt are required to match.  The actual sequence of the primer is atctttatag tcctgtcggg tttcgc." 
+COMMENT                                           1) 
+COMMENT                                     #318=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #319=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   4162..4187" 1))) 
+COMMENT                                   "HGTI-1881_Max=511") 
+COMMENT                             #320=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 4670 (3 #31# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #321=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 4670  End: 4695" 1) 
+COMMENT                                     #322=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 662 bases.  Perfect match Tm = 60.7 C, although only 17 nt are required to match.  The actual sequence of the primer is agcgagaaga atcataatgg ggaagg." 
+COMMENT                                           1) 
+COMMENT                                     #323=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #324=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   4670..4695" 1))) 
+COMMENT                                   "HGTI-1828_Max=662") 
+COMMENT                             #325=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 4742 (3 #22# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #326=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 4742  End: 4768 (Complementary)" 
+COMMENT                                           1) 
+COMMENT                                     #327=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Add-musFLT-mIg Plasmid record #912  Max recorded sequencing read = 618 bases.  Perfect match Tm = 59.3 C, although only 17 nt are required to match. The actual sequence of the primer is tccagaagta gtgaggaggc ttttttg." 
+COMMENT                                           1) 
+COMMENT                                     #328=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #329=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   complement(4742..4768)" 1))) 
+COMMENT                                   "HGTI-8_Max=618"))) 
+COMMENT                           "Primer Binding Site (36 total)") 
+COMMENT                     #330=(CFolderPar 
+COMMENT                           (CGroupPar (CParagraph 30 (7 30 0) 1 1 1 0 178) 
+COMMENT                            (CObjectList 
+COMMENT                             #331=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 9 (3 #17# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #332=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 9     End: 679 " 1) 
+COMMENT                                     #333=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "CMV promoter.  Transcription starts with next base.  5 prime end represents complete extent of the CMV promoter in MDM based plasmids, which corresponds to positions 471..1141 of hCMVie genbank record accession X03922." 
+COMMENT                                           1) 
+COMMENT                                     #334=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #335=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   9..679" 1))) "CMV") 
+COMMENT                             #336=(CFolderPar 
+COMMENT                                   (CGroupPar 
+COMMENT                                    (CParagraph 96 (3 #20# 0) 1 2 2 0 194) 
+COMMENT                                    (CObjectList 
+COMMENT                                     #337=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Start: 96    End: 679 " 1) 
+COMMENT                                     #338=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "CMV promoter.  Transcription starts with next base.  5 prime end starts at Spe I site only.  The CMV region in this construct may extend further upstream." 
+COMMENT                                           1) 
+COMMENT                                     #339=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "Original Location Description:" 1) 
+COMMENT                                     #340=(CLinePar 
+COMMENT                                           (CParagraph 0 (0 0) 1 2 3 0 180) 
+COMMENT                                           "   96..679" 1))) "CMV"))) 
+COMMENT                           "Promoter Prokaryotic (2 total)"))) "Feature Map") 
+COMMENT              #341=(CFolderPar 
+COMMENT                    (CGroupPar (CParagraph 13 (0 0) 1 1 0 0 178) 
+COMMENT                     (CObjectList 
+COMMENT                      #342=(CRSFolderPar 
+COMMENT                            (CFolderPar 
+COMMENT                             (CGroupPar (CParagraph 22123656 (8 0) 1 1 1 0 178) 
+COMMENT                              (CObjectList 
+COMMENT                               #343=(CGroupPar 
+COMMENT                                     (CParagraph 0 (10 #0# 0) 1 2 2 0 180) 
+COMMENT                                     (CObjectList 
+COMMENT                                      #344=(CLinePar 
+COMMENT                                            (CParagraph 0 (1 #0# 1) 1 2 2 0 191) 
+COMMENT                                            " N1: 2744 " 1) 
+COMMENT                                      #345=(CLinePar 
+COMMENT                                            (CParagraph 0 (1 #0# 2) 1 2 2 0 191) 
+COMMENT                                            " N2: 3990 " 1))))) "ApaLI: 2 sites") 
+COMMENT                            1 5 "GTGCAC" "CACGTG") 
+COMMENT                      #346=(CRSFolderPar 
+COMMENT                            (CFolderPar 
+COMMENT                             (CGroupPar (CParagraph 22102728 (8 0) 1 1 1 0 178) 
+COMMENT                              (CObjectList 
+COMMENT                               #347=(CGroupPar 
+COMMENT                                     (CParagraph 0 (10 #1# 0) 1 2 2 0 180) 
+COMMENT                                     (CObjectList 
+COMMENT                                      #348=(CLinePar 
+COMMENT                                            (CParagraph 0 (1 #1# 1) 1 2 2 0 191) 
+COMMENT                                            " N1: 1555 " 1) 
+COMMENT                                      #349=(CLinePar 
+COMMENT                                            (CParagraph 0 (1 #1# 2) 1 2 2 0 191) 
+COMMENT                                            " N2: 1613 " 1))))) "AvaI: 2 sites") 
+COMMENT                            1 5 "CYCGRG" "GRGCYC") 
+COMMENT                      #350=(CRSFolderPar 
+COMMENT                            (CFolderPar 
+COMMENT                             (CGroupPar (CParagraph 27745688 (8 0) 1 1 1 0 178) 
+COMMENT                              (CObjectList 
+COMMENT                               #351=(CGroupPar 
+COMMENT                                     (CParagraph 0 (10 #2# 0) 1 2 2 0 180) 
+COMMENT                                     (CObjectList 
+COMMENT                                      #352=(CLinePar 
+COMMENT                                            (CParagraph 0 (1 #2# 1) 1 2 2 0 191) 
+COMMENT                                            " N1: 1586 " 1))))) "BamHI: 1 site") 
+COMMENT                            1 5 "GGATCC" "CCTAGG") 
+COMMENT                      #353=(CRSFolderPar 
+COMMENT                            (CFolderPar 
+COMMENT                             (CGroupPar (CParagraph 27745584 (8 0) 1 1 1 0 178) 
+COMMENT                              (CObjectList 
+COMMENT                               #354=(CGroupPar 
+COMMENT                                     (CParagraph 0 (10 #3# 0) 1 2 2 0 180) 
+COMMENT                                     (CObjectList 
+COMMENT                                      #355=(CLinePar 
+COMMENT                                            (CParagraph 0 (1 #3# 1) 1 2 2 0 191) 
+COMMENT                                            " N1: 1599 " 1))))) "ClaI: 1 site") 
+COMMENT                            2 4 "ATCGAT" "TAGCTA") 
+COMMENT                      #356=(CRSFolderPar 
+COMMENT                            (CFolderPar 
+COMMENT                             (CGroupPar (CParagraph 27766040 (8 0) 1 1 1 0 178) 
+COMMENT                              (CObjectList 
+COMMENT                               #357=(CGroupPar 
+COMMENT                                     (CParagraph 0 (10 #4# 0) 1 2 2 0 180) 
+COMMENT                                     (CObjectList 
+COMMENT                                      #358=(CLinePar 
+COMMENT                                            (CParagraph 0 (1 #4# 1) 1 2 2 0 191) 
+COMMENT                                            " N1: 1304 " 1))))) "EcoRI: 1 site") 
+COMMENT                            1 5 "GAATTC" "CTTAAG") 
+COMMENT                      #359=(CRSFolderPar 
+COMMENT                            (CFolderPar 
+COMMENT                             (CGroupPar (CParagraph 22121456 (8 0) 1 1 1 0 178) 
+COMMENT                              (CObjectList 
+COMMENT                               #360=(CGroupPar 
+COMMENT                                     (CParagraph 0 (10 #5# 0) 1 2 2 0 180) 
+COMMENT                                     (CObjectList 
+COMMENT                                      #361=(CLinePar 
+COMMENT                                            (CParagraph 0 (1 #5# 1) 1 2 2 0 191) 
+COMMENT                                            " N1: 1592 " 1))))) 
+COMMENT                             "HindIII: 1 site") 1 5 "AAGCTT" "TTCGAA") 
+COMMENT                      #362=(CRSFolderPar 
+COMMENT                            (CFolderPar 
+COMMENT                             (CGroupPar (CParagraph 21946112 (8 0) 1 1 1 0 178) 
+COMMENT                              (CObjectList 
+COMMENT                               #363=(CGroupPar 
+COMMENT                                     (CParagraph 0 (10 #6# 0) 1 2 2 0 180) 
+COMMENT                                     (CObjectList 
+COMMENT                                      #364=(CLinePar 
+COMMENT                                            (CParagraph 0 (1 #6# 1) 1 2 2 0 191) 
+COMMENT                                            " N1: 458 " 1))))) "NcoI: 1 site") 1 
+COMMENT                            5 "CCATGG" "GGTACC") 
+COMMENT                      #365=(CRSFolderPar 
+COMMENT                            (CFolderPar 
+COMMENT                             (CGroupPar (CParagraph 27721688 (8 0) 1 1 1 0 178) 
+COMMENT                              (CObjectList)) "PstI: 0 sites") 5 1 "CTGCAG" 
+COMMENT                            "GACGTC") 
+COMMENT                      #366=(CRSFolderPar 
+COMMENT                            (CFolderPar 
+COMMENT                             (CGroupPar (CParagraph 21399984 (8 0) 1 1 1 0 178) 
+COMMENT                              (CObjectList)) "SmaI: 0 sites") 3 3 "CCCGGG" 
+COMMENT                            "GGGCCC") 
+COMMENT                      #367=(CRSFolderPar 
+COMMENT                            (CFolderPar 
+COMMENT                             (CGroupPar (CParagraph 21399880 (8 0) 1 1 1 0 178) 
+COMMENT                              (CObjectList)) "XmaI: 0 sites") 1 5 "CCCGGG" 
+COMMENT                            "GGGCCC"))) "Restriction/Methylation Map")))) 
+COMMENT       (CGraphView 
+COMMENT        (CWStyleSheet 
+COMMENT         (CObjectList 
+COMMENT          #368=(CWidgetStyle "RSite Label" 1 (LOGPEN 0 0 13408563) 1 0 1 
+COMMENT                (LOGFONT 0 0 0 0 400 0 0 0 0 3 2 1 18 "Georgia") 0.555556 0 1 5 
+COMMENT                "@N (@S)" 0) 
+COMMENT          #369=(CWidgetStyle "Signal Label" 1 (LOGPEN 0 0 0) 1 0 1 
+COMMENT                (LOGFONT -9 0 0 0 700 0 0 0 0 3 2 1 34 "Arial") 0.666667 0 1 1 
+COMMENT                "@N" 0) 
+COMMENT          #370=(CWidgetStyle "Molecule Label 2" 0 0 1 
+COMMENT                (LOGFONT 0 0 0 0 400 0 0 0 0 3 2 1 18 "Georgia") 0.555556 0 1 16 
+COMMENT                "@L bp" 0) 
+COMMENT          #371=(CWidgetStyle "Molecule Label 1" 0 0 1 
+COMMENT                (LOGFONT 0 0 0 0 400 0 0 0 0 3 2 1 34 "Verdana") 0.833333 0 1 1 
+COMMENT                "@N" 0) 
+COMMENT          #372=(CWidgetStyle "Shape 3" 1 (LOGPEN 0 0 3355545) 1 1 
+COMMENT                (LOGBRUSH 0 6724095 0) 0 0 1 (LOGSHAPE 9 1 0.8 1.8 0)) 
+COMMENT          #373=(CWidgetStyle "Shape 1" 1 (LOGPEN 0 0 6723840) 1 1 
+COMMENT                (LOGBRUSH 0 10079334 0) 0 0 1 (LOGSHAPE 9 1 0.8 1.8 0)) 
+COMMENT          #374=(CWidgetStyle "Axis" 1 (LOGPEN 0 0 10079436) 2 1 
+COMMENT                (LOGBRUSH 0 13434879 0) 0 0 1 (LOGSHAPE 10 1 0 0 0)) 
+COMMENT          #375=(CWidgetStyle "Line 2" 1 (LOGPEN 0 0 6723840) 8 0 0 0 1 
+COMMENT                (LOGSHAPE 1 1.9 0 0 0)) 
+COMMENT          #376=(CWidgetStyle "RSite" 1 (LOGPEN 0 0 10053171) 8 0 0 0 1 
+COMMENT                (LOGSHAPE 1 1.9 0 0 0)) 
+COMMENT          #377=(CWidgetStyle "Short Signal" 1 (LOGPEN 0 0 13395507) 10 0 0 0 1 
+COMMENT                (LOGSHAPE 1 1.9 0 0 0)) 
+COMMENT          #378=(CWidgetStyle "Uniq RSite Label" 1 (LOGPEN 0 0 153) 1 0 1 
+COMMENT                (LOGFONT 0 0 0 0 400 0 0 0 0 3 2 1 18 "Georgia") 0.555556 128 1 
+COMMENT                5 "@N (@S)" 0) 
+COMMENT          #379=(CWidgetStyle "Vanilla" 1 (LOGPEN 0 0 0) 1 1 
+COMMENT                (LOGBRUSH 0 16777215 0) 1 
+COMMENT                (LOGFONT 0 0 0 0 400 0 0 0 0 7 48 2 18 "Times New Roman") 0.8 0 
+COMMENT                1 2 "?" 0) 
+COMMENT          #380=(CWidgetStyle "Mark 1" 0 0 1 
+COMMENT                (LOGFONT 0 0 0 0 400 0 0 0 2 7 48 2 2 "Windings") 0.7 0 1 2 "?" 
+COMMENT                0) 
+COMMENT          #381=(CWidgetStyle "Motif Label" 1 (LOGPEN 0 0 16744512) 1 0 1 
+COMMENT                (LOGFONT 0 0 0 0 400 0 0 0 0 3 2 1 34 "Arial") 0.611111 8388608 
+COMMENT                1 65535 "@N (@H)" 0) 
+COMMENT          #382=(CWidgetStyle "Fragment Label 2" 1 (LOGPEN 0 0 0) 1 0 1 
+COMMENT                (LOGFONT 0 0 0 0 400 0 0 0 0 3 2 1 49 "Courier New") 1.05 0 1 48 
+COMMENT                "@F bp (molecule @L bp)" 0) 
+COMMENT          #383=(CWidgetStyle "Fragment Label 1" 1 (LOGPEN 0 0 0) 1 0 1 
+COMMENT                (LOGFONT 0 0 0 0 400 0 0 0 0 3 2 1 34 "Arial") 0.91 0 1 1 
+COMMENT                "Fragment of @N" 0) 
+COMMENT          #384=(CWidgetStyle "Shape 4" 1 (LOGPEN 0 0 0) 1 1 
+COMMENT                (LOGBRUSH 2 8388608 5) 0 0 0) 
+COMMENT          #385=(CWidgetStyle "Shape 2" 1 (LOGPEN 0 0 0) 1 1 (LOGBRUSH 0 128 0) 0 
+COMMENT                0 0) 
+COMMENT          #386=(CWidgetStyle "Shape 0" 1 (LOGPEN 0 0 0) 1 1 (LOGBRUSH 0 0 0) 0 0 
+COMMENT                0) 
+COMMENT          #387=(CWidgetStyle "ORF" 1 (LOGPEN 0 0 16384) 8 0 0 0 1 
+COMMENT                (LOGSHAPE 7 0.2 3.41182 2.86186 0.609808)) 
+COMMENT          #388=(CWidgetStyle "Line 4" 1 (LOGPEN 0 0 32768) 8 0 0 0 0) 
+COMMENT          #389=(CWidgetStyle "Line 3" 1 (LOGPEN 0 0 16711680) 8 0 0 0 0) 
+COMMENT          #390=(CWidgetStyle "Line 1" 1 (LOGPEN 0 0 16711680) 1 0 0 0 0) 
+COMMENT          #391=(CWidgetStyle "Short Promoter" 1 (LOGPEN 0 0 128) 6 0 0 0 0) 
+COMMENT          #392=(CWidgetStyle "Motif" 1 (LOGPEN 0 0 0) 1 0 0 0 0) 
+COMMENT          #393=(CWidgetStyle "Line 0" 1 (LOGPEN 0 0 0) 8 0 0 0 0) 
+COMMENT          #394=(CWidgetStyle "Void" 0 0 0 0 0) 
+COMMENT          #395=(CWidgetStyle "General Label" 1 (LOGPEN 0 0 0) 1 0 1 
+COMMENT                (LOGFONT 0 0 0 0 400 0 0 0 0 3 2 1 18 "Times New Roman") 0.91 0 
+COMMENT                1 3 "@T @N " 0) 
+COMMENT          #396=(CWidgetStyle "Position" 1 (LOGPEN 0 0 0) 1 0 0 0 0) 
+COMMENT          #397=(CWidgetStyle "Annotation" 0 0 1 
+COMMENT                (LOGFONT 0 0 0 0 400 0 0 0 0 3 2 1 18 "Times New Roman") 0.91 0 
+COMMENT                0 0) 
+COMMENT          #398=(CWidgetStyle "Position Label" 1 (LOGPEN 0 0 8388608) 1 0 1 
+COMMENT                (LOGFONT 0 0 0 0 400 0 1 0 0 3 2 1 34 "Arial") 0.63 8388608 1 1 
+COMMENT                "@N" 0) 
+COMMENT          #399=(CWidgetStyle "Range" 1 (LOGPEN 0 0 0) 1 1 
+COMMENT                (LOGBRUSH 0 16777215 0) 0 0 0) 
+COMMENT          #400=(CWidgetStyle "Range Label" 1 (LOGPEN 0 0 8388608) 1 0 1 
+COMMENT                (LOGFONT 0 0 0 0 400 0 1 0 0 3 2 1 34 "Arial") 0.63 8388608 1 1 
+COMMENT                "@N" 0) 
+COMMENT          #401=(CWidgetStyle "ORF Label" 1 (LOGPEN 0 0 49216) 1 0 1 
+COMMENT                (LOGFONT 0 0 0 0 400 0 0 0 0 3 2 1 18 "Times New Roman") 
+COMMENT                0.611111 0 1 65535 "@N" 0) 
+COMMENT          #402=(CWidgetStyle "CDS Label" 1 (LOGPEN 0 0 4227264) 1 0 1 
+COMMENT                (LOGFONT 0 0 0 0 400 0 0 0 0 3 2 1 34 "Arial") 0.555556 255 1 1 
+COMMENT                "@N" 0) 
+COMMENT          #403=(CWidgetStyle "Shape 5" 1 (LOGPEN 0 0 0) 3 1 
+COMMENT                (LOGBRUSH 0 16777113 0) 1 
+COMMENT                (LOGFONT 0 0 0 0 400 0 0 0 0 7 48 2 50 "Arial") 0.9 0 0 1 
+COMMENT                (LOGSHAPE 9 1 0.8 1.8 0)) 
+COMMENT          #404=(CWidgetStyle "CDS" 1 (LOGPEN 0 0 0) 1 1 (LOGBRUSH 2 39423 3) 0 0 
+COMMENT                1 (LOGSHAPE 9 1 0.8 1.8 0)) 
+COMMENT          #405=(CWidgetStyle "Label 2" 1 (LOGPEN 0 0 4227264) 1 0 1 
+COMMENT                (LOGFONT 0 0 0 0 400 0 0 0 0 3 2 1 34 "Arial") 0.944444 8388608 
+COMMENT                1 1 "@N" 0) 
+COMMENT          #406=(CWidgetStyle "Label 3" 1 (LOGPEN 0 0 8421376) 1 0 1 
+COMMENT                (LOGFONT 0 0 0 0 700 255 0 0 0 3 2 1 34 "Arial") 0.833333 255 1 
+COMMENT                5 "@N (@S)" 0) 
+COMMENT          #407=(CWidgetStyle "Label 4" 1 (LOGPEN 0 0 8437824) 1 0 1 
+COMMENT                (LOGFONT 0 0 0 0 400 0 0 0 0 3 2 1 34 "Arial") 0.722222 0 1 5 
+COMMENT                "@N (@S)" 0) 
+COMMENT          #408=(CWidgetStyle "Primer_Bind" 1 (LOGPEN 5 0 16711680) 1 1 
+COMMENT                (LOGBRUSH 0 16777215 0) 1 
+COMMENT                (LOGFONT -12 0 0 0 400 0 0 0 0 7 48 2 50 "Arial") 0.9 0 0 0)) 
+COMMENT         0.164644 1.74233 0.164644 2.53336 
+COMMENT         (28 (CShapeMapEntry 0 "Primer_Bind" 0 "Signal Label") 70 
+COMMENT          (CShapeMapEntry 0 "Unique RSite" 1 "Uniq RSite Label") 67 
+COMMENT          (CShapeMapEntry 0 "ORF" 0 "ORF Label")) 40.0378 40.0378 39 39 0.1 -365) 
+COMMENT        1 1 0 1 1 
+COMMENT        (mapper: 18.0885 -14.4968 40.0378 40.0378 0.01 10 -1 4829 4829 1 0 0) 
+COMMENT        #409=(CGroupWidget (CWidget 0 (0 0) 1 2 0 0 Nil 1283092037 100) 
+COMMENT              (CObjectList 
+COMMENT               #410=(CGroupWidget (CWidget 1 (0 0) 1 2 0 0 Nil -2134 100) 
+COMMENT                     (CObjectList 
+COMMENT                      #411=(CAxis 
+COMMENT                            (CWideLine 
+COMMENT                             (CWidget 0 (0 0) 1 2 0 0 #374# 27725532 0) 
+COMMENT                             (LOGPEN 0 0 10079436) 2 (LOGBRUSH 0 13434879 0) 1 
+COMMENT                             6.27548 6.27348 1 0.0214037) 0.129907) 
+COMMENT                      #412=(CLabel (CWidget 1001 (0 0) 1 2 0 0 #371# 393218 100) 
+COMMENT                            (LOGPEN 0 0 13408563) 1 
+COMMENT                            (LOGFONT 58 22 0 0 400 0 0 0 0 3 2 1 34 "Verdana") 
+COMMENT                            1.74233 0.833333 0 "HDM-tat1b" "@N" 1 0 0.871165 0 
+COMMENT                            -10 6.04429 1.39868 Nil) 
+COMMENT                      #413=(CLabel 
+COMMENT                            (CWidget 1002 (0 0) 1 2 0 0 #370# 21370908 100) 
+COMMENT                            (LOGPEN 0 0 13408563) 1 
+COMMENT                            (LOGFONT 38 14 0 0 400 0 0 0 0 3 2 1 18 "Georgia") 
+COMMENT                            1.74233 0.555556 0 "4829 bp" "@L bp" 16 0 -0.871165 
+COMMENT                            0 -10.8 3.47172 0.974079 Nil)) (CObjectList)) 
+COMMENT               #414=(CGroupWidget (CWidget 10 (6 0) 1 2 0 0 Nil -1855 100) 
+COMMENT                     (CObjectList 
+COMMENT                      #415=(CGroupWidget 
+COMMENT                            (CWidget 4 (7 4 0) 1 2 0 0 Nil -390 100) 
+COMMENT                            (CObjectList 
+COMMENT                             #416=(CWideArrow 
+COMMENT                                   (CWideLine 
+COMMENT                                    (CWidget 0 (3 #13# 0) 1 2 0 0 #372# 0 100) 
+COMMENT                                    (LOGPEN 0 0 3355545) 1 
+COMMENT                                    (LOGBRUSH 0 6724095 0) 1 1.74594 2.86054 1 
+COMMENT                                    0.082322) 0.8 1.8 0) 
+COMMENT                             #417=(CLabel 
+COMMENT                                   (CWidget 0 (0 0) 1 2 0 0 #369# 14352960 100) 
+COMMENT                                   (LOGPEN 0 0 0) 1 
+COMMENT                                   (LOGFONT 46 17 0 0 700 0 0 0 0 3 2 1 34 
+COMMENT                                    "Arial") 1.74233 0.666667 0 "bla" "@N" 1 
+COMMENT                                   -10.0858 -8.71165 0 -10 1.49858 1.12394 #416#) 
+COMMENT                             #418=(CWideArrow 
+COMMENT                                   (CWideLine 
+COMMENT                                    (CWidget 0 (3 #58# 0) 1 2 0 0 #372# 0 100) 
+COMMENT                                    (LOGPEN 0 0 3355545) 1 
+COMMENT                                    (LOGBRUSH 0 6724095 0) 1 4.21417 4.55322 1 
+COMMENT                                    0.082322) 0.8 1.8 0) 
+COMMENT                             #419=(CLabel 
+COMMENT                                   (CWidget 0 (0 0) 1 2 0 0 #369# 27018100 100) 
+COMMENT                                   (LOGPEN 0 0 0) 1 
+COMMENT                                   (LOGFONT 46 17 0 0 700 0 0 0 0 3 2 1 34 
+COMMENT                                    "Arial") 1.74233 0.666667 0 "Tat1b" "@N" 1 
+COMMENT                                   13.0931 -1.74233 0 -10 2.54759 1.12394 #418#)) 
+COMMENT                            (CObjectList)) 
+COMMENT                      #420=(CGroupWidget 
+COMMENT                            (CWidget 21 (7 21 0) 1 2 0 0 Nil -529 100) 
+COMMENT                            (CObjectList 
+COMMENT                             #421=(CWideArrow 
+COMMENT                                   (CWideLine 
+COMMENT                                    (CWidget 0 (3 #10# 0) 1 2 0 0 #373# 
+COMMENT                                     2082602612 100) (LOGPEN 0 0 6723840) 1 
+COMMENT                                    (LOGBRUSH 0 10079334 0) 1 4.64416 5.26251 1 
+COMMENT                                    0.082322) 0.8 1.8 0) 
+COMMENT                             #422=(CLabel 
+COMMENT                                   (CWidget 0 (0 0) 1 2 0 0 #369# 14352960 100) 
+COMMENT                                   (LOGPEN 0 0 0) 1 
+COMMENT                                   (LOGFONT 46 17 0 0 700 0 0 0 0 3 2 1 34 
+COMMENT                                    "Arial") 1.74233 0.666667 0 
+COMMENT                                   "B-globin intron" "@N" 1 14.9244 3.48466 0 
+COMMENT                                   -10 6.6687 1.12394 #421#) 
+COMMENT                             #423=(CScratch 
+COMMENT                                   (CWidget 0 (3 #12# 0) 1 2 0 0 #377# 0 100) 
+COMMENT                                   (LOGPEN 0 8 13395507) 10 1 3.20349 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #424=(CLabel (CWidget 0 (0 0) 1 2 0 0 #369# 12 100) 
+COMMENT                                   (LOGPEN 0 0 0) 1 
+COMMENT                                   (LOGFONT 46 17 0 0 700 0 0 0 0 3 2 1 34 
+COMMENT                                    "Arial") 1.74233 0.666667 0 "End of globin" 
+COMMENT                                   "@N" 1 4.57349 -15.681 0 -10 5.96936 1.12394 
+COMMENT                                   #423#) 
+COMMENT                             #425=(CWideArrow 
+COMMENT                                   (CWideLine 
+COMMENT                                    (CWidget 0 (3 #14# 0) 1 2 0 0 #373# 0 100) 
+COMMENT                                    (LOGPEN 0 0 6723840) 1 
+COMMENT                                    (LOGBRUSH 0 10079334 0) 1 5.39112 5.45867 1 
+COMMENT                                    0.082322) 0.8 1.8 0) 
+COMMENT                             #426=(CLabel 
+COMMENT                                   (CWidget 0 (0 0) 1 2 0 0 #369# 2082602612 100) 
+COMMENT                                   (LOGPEN 0 0 0) 1 
+COMMENT                                   (LOGFONT 46 17 0 0 700 0 0 0 0 3 2 1 34 
+COMMENT                                    "Arial") 1.74233 0.666667 0 "CMV TATA" "@N" 
+COMMENT                                   1 12.401 6.96932 0 -10 4.77049 1.12394 #425#) 
+COMMENT                             #427=(CWideArrow 
+COMMENT                                   (CWideLine 
+COMMENT                                    (CWidget 0 (3 #15# 0) 1 2 0 0 #373# 0 100) 
+COMMENT                                    (LOGPEN 0 0 6723840) 1 
+COMMENT                                    (LOGBRUSH 0 10079334 0) 1 6.27319 0.146794 1 
+COMMENT                                    0.082322) 0.8 1.8 0) 
+COMMENT                             #428=(CLabel 
+COMMENT                                   (CWidget 0 (0 0) 1 2 0 0 #369# 262146 100) 
+COMMENT                                   (LOGPEN 0 0 0) 1 
+COMMENT                                   (LOGFONT 46 17 0 0 700 0 0 0 0 3 2 1 34 
+COMMENT                                    "Arial") 1.74233 0.666667 0 "SV40 ori" "@N" 
+COMMENT                                   1 -3.39643 12.1963 0 -10 3.79641 1.12394 
+COMMENT                                   #427#) 
+COMMENT                             #429=(CWideArrow 
+COMMENT                                   (CWideLine 
+COMMENT                                    (CWidget 0 (3 #16# 0) 1 2 0 0 #373# 0 100) 
+COMMENT                                    (LOGPEN 0 0 6723840) 1 
+COMMENT                                    (LOGBRUSH 0 10079334 0) 1 1.30166 1.35882 1 
+COMMENT                                    0.082322) 0.8 1.8 0) 
+COMMENT                             #430=(CLabel 
+COMMENT                                   (CWidget 0 (0 0) 1 2 0 0 #369# 14352968 100) 
+COMMENT                                   (LOGPEN 0 0 0) 1 
+COMMENT                                   (LOGFONT 46 17 0 0 700 0 0 0 0 3 2 1 34 
+COMMENT                                    "Arial") 1.74233 0.666667 0 "High copy" "@N" 
+COMMENT                                   1 -13.8975 3.48466 0 -10 4.49575 1.12394 
+COMMENT                                   #429#) 
+COMMENT                             #431=(CWideArrow 
+COMMENT                                   (CWideLine 
+COMMENT                                    (CWidget 0 (3 #18# 0) 1 2 0 0 #373# 0 100) 
+COMMENT                                    (LOGPEN 0 0 6723840) 1 
+COMMENT                                    (LOGBRUSH 0 10079334 0) 1 5.29889 5.39112 1 
+COMMENT                                    0.082322) 0.8 1.8 0) 
+COMMENT                             #432=(CLabel 
+COMMENT                                   (CWidget 0 (0 0) 1 2 0 0 #369# 21395664 100) 
+COMMENT                                   (LOGPEN 0 0 0) 1 
+COMMENT                                   (LOGFONT 46 17 0 0 700 0 0 0 0 3 2 1 34 
+COMMENT                                    "Arial") 1.74233 0.666667 0 "CMV 5xxUTR" 
+COMMENT                                   "@N" 1 13.762 5.22699 0 -10 5.8195 1.12394 
+COMMENT                                   #431#) 
+COMMENT                             #433=(CWideArrow 
+COMMENT                                   (CWideLine 
+COMMENT                                    (CWidget 0 (3 #19# 0) 1 2 0 0 #373# 0 100) 
+COMMENT                                    (LOGPEN 0 0 6723840) 1 
+COMMENT                                    (LOGBRUSH 0 10079334 0) 0.835356 3.17102 
+COMMENT                                    4.15831 1 0.082322) 0.8 1.8 0) 
+COMMENT                             #434=(CLabel (CWidget 0 (0 0) 1 2 0 0 #369# 1 100) 
+COMMENT                                   (LOGPEN 0 0 0) 1 
+COMMENT                                   (LOGFONT 46 17 0 0 700 0 0 0 0 3 2 1 34 
+COMMENT                                    "Arial") 1.74233 0.666667 0 "beta globin pA" 
+COMMENT                                   "@N" 1 9.96538 -13.9386 0 -10 6.59377 1.12394 
+COMMENT                                   #433#) 
+COMMENT                             #435=(CScratch 
+COMMENT                                   (CWidget 0 (3 #21# 0) 1 2 0 0 #377# 0 100) 
+COMMENT                                   (LOGPEN 0 8 13395507) 10 1 3.15413 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #436=(CLabel 
+COMMENT                                   (CWidget 0 (0 0) 1 2 0 0 #369# 14352960 100) 
+COMMENT                                   (LOGPEN 0 0 0) 1 
+COMMENT                                   (LOGFONT 46 17 0 0 700 0 0 0 0 3 2 1 34 
+COMMENT                                    "Arial") 1.74233 0.666667 0 "Correction-143" 
+COMMENT                                   "@N" 1 4.35053 -17.4233 0 -10 6.44391 1.12394 
+COMMENT                                   #435#)) (CObjectList)) 
+COMMENT                      #437=(CGroupWidget 
+COMMENT                            (CWidget 26 (7 26 0) 1 2 0 0 Nil -1366 100) 
+COMMENT                            (CObjectList 
+COMMENT                             #438=(CScratch 
+COMMENT                                   (CWidget 0 (3 #11# 0) 1 2 0 0 #393# 1297 100) 
+COMMENT                                   (LOGPEN 0 6 0) 8 1 3.89979 1.9 0.082322 1) 
+COMMENT                             #439=(CLabel 
+COMMENT                                   (CWidget 0 (0 0) 1 2 0 0 #369# 14352960 100) 
+COMMENT                                   (LOGPEN 0 0 0) 1 
+COMMENT                                   (LOGFONT 46 17 0 0 700 0 0 0 0 3 2 1 34 
+COMMENT                                    "Arial") 1.74233 0.666667 0 "polyA site" 
+COMMENT                                   "@N" 1 11.1524 -12.1963 0 -10 4.42082 1.12394 
+COMMENT                                   #438#)) (CObjectList)) 
+COMMENT                      #440=(CGroupWidget 
+COMMENT                            (CWidget 28 (7 28 0) 1 2 0 0 Nil -1646 100) 
+COMMENT                            (CObjectList 
+COMMENT                             #441=(CScratch 
+COMMENT                                   (CWidget 0 (3 #22# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 0.114318 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #442=(CScratch 
+COMMENT                                   (CWidget 0 (3 #23# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 5.37553 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #443=(CScratch 
+COMMENT                                   (CWidget 0 (3 #24# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 4.36096 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #444=(CLine 
+COMMENT                                   (CWidget 0 (3 #25# 0) 1 2 0 0 #408# 541676622 
+COMMENT                                    100) (LOGPEN 5 1 16711680) 1 0.835356 
+COMMENT                                   5.35994 5.4145) 
+COMMENT                             #445=(CScratch 
+COMMENT                                   (CWidget 0 (3 #26# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 5.47296 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #446=(CLine 
+COMMENT                                   (CWidget 0 (3 #27# 0) 1 2 0 0 #408# 744644940 
+COMMENT                                    100) (LOGPEN 5 1 16711680) 1 0.835356 
+COMMENT                                   5.42619 5.47946) 
+COMMENT                             #447=(CScratch 
+COMMENT                                   (CWidget 0 (3 #28# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 4.68443 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #448=(CScratch 
+COMMENT                                   (CWidget 0 (3 #29# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 4.09855 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #449=(CScratch 
+COMMENT                                   (CWidget 0 (3 #30# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 4.70391 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #450=(CScratch 
+COMMENT                                   (CWidget 0 (3 #31# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 0.20785 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #451=(CScratch 
+COMMENT                                   (CWidget 0 (3 #32# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 6.07833 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #452=(CScratch 
+COMMENT                                   (CWidget 0 (3 #33# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 5.29889 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #453=(CScratch 
+COMMENT                                   (CWidget 0 (3 #34# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 4.90917 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #454=(CScratch 
+COMMENT                                   (CWidget 0 (3 #35# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 3.93877 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #455=(CScratch 
+COMMENT                                   (CWidget 0 (3 #36# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 3.54775 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #456=(CScratch 
+COMMENT                                   (CWidget 0 (3 #37# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 1.13928 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #457=(CScratch 
+COMMENT                                   (CWidget 0 (3 #38# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 1.54329 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #458=(CScratch 
+COMMENT                                   (CWidget 0 (3 #39# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 1.92262 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #459=(CScratch 
+COMMENT                                   (CWidget 0 (3 #40# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 2.31104 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #460=(CScratch 
+COMMENT                                   (CWidget 0 (3 #41# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 2.70465 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #461=(CScratch 
+COMMENT                                   (CWidget 0 (3 #42# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 3.10347 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #462=(CScratch 
+COMMENT                                   (CWidget 0 (3 #43# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 5.9679 1.9 0.082322 
+COMMENT                                   1) 
+COMMENT                             #463=(CScratch 
+COMMENT                                   (CWidget 0 (3 #44# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 5.57819 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #464=(CScratch 
+COMMENT                                   (CWidget 0 (3 #45# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 5.19236 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #465=(CScratch 
+COMMENT                                   (CWidget 0 (3 #46# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 4.80005 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #466=(CScratch 
+COMMENT                                   (CWidget 0 (3 #47# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 3.82834 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #467=(CScratch 
+COMMENT                                   (CWidget 0 (3 #48# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 3.44512 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #468=(CScratch 
+COMMENT                                   (CWidget 0 (3 #49# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 0.867775 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #469=(CScratch 
+COMMENT                                   (CWidget 0 (3 #50# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 1.25749 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #470=(CScratch 
+COMMENT                                   (CWidget 0 (3 #51# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 1.64721 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #471=(CScratch 
+COMMENT                                   (CWidget 0 (3 #52# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 2.03693 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #472=(CScratch 
+COMMENT                                   (CWidget 0 (3 #53# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 2.42665 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #473=(CScratch 
+COMMENT                                   (CWidget 0 (3 #54# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 2.81637 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #474=(CScratch 
+COMMENT                                   (CWidget 0 (3 #55# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 5.54571 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #475=(CScratch 
+COMMENT                                   (CWidget 0 (3 #56# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 5.03777 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #476=(CScratch 
+COMMENT                                   (CWidget 0 (3 #57# 0) 1 2 0 0 #408# 0 100) 
+COMMENT                                   (LOGPEN 5 1 16711680) 1 1 4.68183 1.9 
+COMMENT                                   0.082322 1)) (CObjectList)) 
+COMMENT                      #477=(CGroupWidget 
+COMMENT                            (CWidget 30 (7 30 0) 1 2 0 0 Nil -1994 100) 
+COMMENT                            (CObjectList 
+COMMENT                             #478=(CWideArrow 
+COMMENT                                   (CWideLine 
+COMMENT                                    (CWidget 0 (3 #17# 0) 1 2 0 0 #385# 0 100) 
+COMMENT                                    (LOGPEN 0 0 0) 1 (LOGBRUSH 0 128 0) 0.670712 
+COMMENT                                    5.39112 6.26279 1 0.082322) 0.8 1.8 0) 
+COMMENT                             #479=(CLabel 
+COMMENT                                   (CWidget 0 (0 0) 1 2 0 0 #369# 21597228 100) 
+COMMENT                                   (LOGPEN 0 0 0) 1 
+COMMENT                                   (LOGFONT 46 17 0 0 700 0 0 0 0 3 2 1 34 
+COMMENT                                    "Arial") 1.74233 0.666667 0 "CMV" "@N" 1 
+COMMENT                                   7.07873 12.1963 0 -10 2.12299 1.12394 #478#) 
+COMMENT                             #480=(CWideArrow 
+COMMENT                                   (CWideLine 
+COMMENT                                    (CWidget 0 (3 #20# 0) 1 2 0 0 #385# 0 100) 
+COMMENT                                    (LOGPEN 0 0 0) 1 (LOGBRUSH 0 128 0) 0.506068 
+COMMENT                                    5.39112 6.14977 1 0.082322) 0.8 1.8 0) 
+COMMENT                             #481=(CLabel (CWidget 0 (0 0) 1 2 0 0 #369# 1 100) 
+COMMENT                                   (LOGPEN 0 0 0) 1 
+COMMENT                                   (LOGFONT 46 17 0 0 700 0 0 0 0 3 2 1 34 
+COMMENT                                    "Arial") 1.74233 0.666667 0 "CMV" "@N" 1 
+COMMENT                                   7.54278 10.454 0 -10 2.12299 1.12394 #480#)) 
+COMMENT                            (CObjectList))) (CObjectList)) 
+COMMENT               #482=(CGroupWidget (CWidget 11 (8 0) 1 2 0 0 Nil -2064 100) 
+COMMENT                     (CObjectList 
+COMMENT                      #483=(CGroupWidget 
+COMMENT                            (CWidget 1 (10 #2# 0) 1 2 0 0 Nil -253 100) 
+COMMENT                            (CObjectList 
+COMMENT                             #484=(CScratch 
+COMMENT                                   (CWidget 1 (1 #2# 1) 1 2 0 0 #376# 0 100) 
+COMMENT                                   (LOGPEN 0 6 10053171) 8 1 4.21417 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #485=(CLabel 
+COMMENT                                   (CWidget 0 (0 0) 1 2 0 0 #378# 21162980 100) 
+COMMENT                                   (LOGPEN 0 0 153) 1 
+COMMENT                                   (LOGFONT 38 14 0 0 400 0 0 0 0 3 2 1 18 
+COMMENT                                    "Georgia") 1.74233 0.555556 128 
+COMMENT                                   "{\\i Bam}HI (1586)" "@N (@S)" 5 13.7097 
+COMMENT                                   -5.22699 0 -10 5.89443 0.974079 #484#)) 
+COMMENT                            (CObjectList)) 
+COMMENT                      #486=(CGroupWidget 
+COMMENT                            (CWidget 1 (10 #3# 0) 1 2 0 0 Nil -1579 100) 
+COMMENT                            (CObjectList 
+COMMENT                             #487=(CScratch 
+COMMENT                                   (CWidget 1 (1 #3# 1) 1 2 0 0 #376# 0 100) 
+COMMENT                                   (LOGPEN 0 6 10053171) 8 1 4.19728 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #488=(CLabel 
+COMMENT                                   (CWidget 0 (0 0) 1 2 0 0 #378# 21756252 100) 
+COMMENT                                   (LOGPEN 0 0 153) 1 
+COMMENT                                   (LOGFONT 38 14 0 0 400 0 0 0 0 3 2 1 18 
+COMMENT                                    "Georgia") 1.74233 0.555556 128 
+COMMENT                                   "{\\i Cla}I (1599)" "@N (@S)" 5 13.0579 
+COMMENT                                   -8.71165 0 -10 4.64561 0.974079 #487#)) 
+COMMENT                            (CObjectList)) 
+COMMENT                      #489=(CGroupWidget 
+COMMENT                            (CWidget 1 (10 #4# 0) 1 2 0 0 Nil -1160 100) 
+COMMENT                            (CObjectList 
+COMMENT                             #490=(CScratch 
+COMMENT                                   (CWidget 1 (1 #4# 1) 1 2 0 0 #376# 0 100) 
+COMMENT                                   (LOGPEN 0 6 10053171) 8 1 4.5805 1.9 0.082322 
+COMMENT                                   1) 
+COMMENT                             #491=(CLabel 
+COMMENT                                   (CWidget 0 (0 0) 1 2 0 0 #378# 21796332 100) 
+COMMENT                                   (LOGPEN 0 0 153) 1 
+COMMENT                                   (LOGFONT 38 14 0 0 400 0 0 0 0 3 2 1 18 
+COMMENT                                    "Georgia") 1.74233 0.555556 128 
+COMMENT                                   "{\\i Eco}RI (1304)" "@N (@S)" 5 14.4498 0 0 
+COMMENT                                   -10 5.41988 0.974079 #490#)) (CObjectList)) 
+COMMENT                      #492=(CGroupWidget 
+COMMENT                            (CWidget 1 (10 #5# 0) 1 2 0 0 Nil -532 100) 
+COMMENT                            (CObjectList 
+COMMENT                             #493=(CScratch 
+COMMENT                                   (CWidget 1 (1 #5# 1) 1 2 0 0 #376# 0 100) 
+COMMENT                                   (LOGPEN 0 6 10053171) 8 1 4.20637 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #494=(CLabel 
+COMMENT                                   (CWidget 0 (0 0) 1 2 0 0 #378# 27299676 100) 
+COMMENT                                   (LOGPEN 0 0 153) 1 
+COMMENT                                   (LOGFONT 38 14 0 0 400 0 0 0 0 3 2 1 18 
+COMMENT                                    "Georgia") 1.74233 0.555556 128 
+COMMENT                                   "{\\i Hin}dIII (1592)" "@N (@S)" 5 13.6161 
+COMMENT                                   -6.96932 0 -10 5.8195 0.974079 #493#)) 
+COMMENT                            (CObjectList)) 
+COMMENT                      #495=(CGroupWidget 
+COMMENT                            (CWidget 1 (10 #6# 0) 1 2 0 0 Nil -1439 100) 
+COMMENT                            (CObjectList 
+COMMENT                             #496=(CScratch 
+COMMENT                                   (CWidget 1 (1 #6# 1) 1 2 0 0 #376# 0 100) 
+COMMENT                                   (LOGPEN 0 6 10053171) 8 1 5.67951 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #497=(CLabel 
+COMMENT                                   (CWidget 0 (0 0) 1 2 0 0 #378# 21150572 100) 
+COMMENT                                   (LOGPEN 0 0 153) 1 
+COMMENT                                   (LOGFONT 38 14 0 0 400 0 0 0 0 3 2 1 18 
+COMMENT                                    "Georgia") 1.74233 0.555556 128 
+COMMENT                                   "{\\i Nco}I (458)" "@N (@S)" 5 10.7751 
+COMMENT                                   8.71165 0 -10 4.49575 0.974079 #496#)) 
+COMMENT                            (CObjectList)) 
+COMMENT                      #498=(CGroupWidget 
+COMMENT                            (CWidget 2 (10 #0# 0) 1 2 0 0 Nil -1925 100) 
+COMMENT                            (CObjectList 
+COMMENT                             #499=(CScratch 
+COMMENT                                   (CWidget 1 (1 #0# 1) 1 2 0 0 #376# 0 100) 
+COMMENT                                   (LOGPEN 0 6 10053171) 8 1 2.70985 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #500=(CLabel 
+COMMENT                                   (CWidget 0 (0 0) 1 2 0 0 #368# 22043572 100) 
+COMMENT                                   (LOGPEN 0 0 13408563) 1 
+COMMENT                                   (LOGFONT 38 14 0 0 400 0 0 0 0 3 2 1 18 
+COMMENT                                    "Georgia") 1.74233 0.555556 0 
+COMMENT                                   "{\\i Apa}LI (2744)" "@N (@S)" 5 -9.06087 
+COMMENT                                   -10.454 0 -10 5.54476 0.974079 #499#) 
+COMMENT                             #501=(CScratch 
+COMMENT                                   (CWidget 2 (1 #0# 2) 1 2 0 0 #376# 0 100) 
+COMMENT                                   (LOGPEN 0 6 10053171) 8 1 1.09121 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #502=(CLabel 
+COMMENT                                   (CWidget 0 (0 0) 1 2 0 0 #368# 21165612 100) 
+COMMENT                                   (LOGPEN 0 0 13408563) 1 
+COMMENT                                   (LOGFONT 38 14 0 0 400 0 0 0 0 3 2 1 18 
+COMMENT                                    "Georgia") 1.74233 0.555556 0 
+COMMENT                                   "{\\i Apa}LI (3990)" "@N (@S)" 5 -13.5616 
+COMMENT                                   5.22699 0 -10 5.54476 0.974079 #501#)) 
+COMMENT                            (CObjectList)) 
+COMMENT                      #503=(CGroupWidget 
+COMMENT                            (CWidget 2 (10 #1# 0) 1 2 0 0 Nil -323 100) 
+COMMENT                            (CObjectList 
+COMMENT                             #504=(CScratch 
+COMMENT                                   (CWidget 1 (1 #1# 1) 1 2 0 0 #376# 0 100) 
+COMMENT                                   (LOGPEN 0 6 10053171) 8 1 4.25444 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #505=(CLabel 
+COMMENT                                   (CWidget 0 (0 0) 1 2 0 0 #368# 1128351572 100) 
+COMMENT                                   (LOGPEN 0 0 13408563) 1 
+COMMENT                                   (LOGFONT 38 14 0 0 400 0 0 0 0 3 2 1 18 
+COMMENT                                    "Georgia") 1.74233 0.555556 0 
+COMMENT                                   "{\\i Ava}I (1555)" "@N (@S)" 5 13.7416 
+COMMENT                                   -3.48466 0 -10 4.9703 0.974079 #504#) 
+COMMENT                             #506=(CScratch 
+COMMENT                                   (CWidget 2 (1 #1# 2) 1 2 0 0 #376# 0 100) 
+COMMENT                                   (LOGPEN 0 6 10053171) 8 1 4.17909 1.9 
+COMMENT                                   0.082322 1) 
+COMMENT                             #507=(CLabel (CWidget 0 (0 0) 1 2 0 0 #368# 0 100) 
+COMMENT                                   (LOGPEN 0 0 13408563) 1 
+COMMENT                                   (LOGFONT 38 14 0 0 400 0 0 0 0 3 2 1 18 
+COMMENT                                    "Georgia") 1.74233 0.555556 0 
+COMMENT                                   "{\\i Ava}I (1613)" "@N (@S)" 5 13.1219 
+COMMENT                                   -10.454 0 -10 4.89537 0.974079 #506#)) 
+COMMENT                            (CObjectList))) (CObjectList)) 
+COMMENT               #508=(CGroupWidget (CWidget 14 (16 0) 1 2 0 0 Nil -1230 100) 
+COMMENT                     (CObjectList) (CObjectList)) 
+COMMENT               #509=(CGroupWidget (CWidget 12 (0 0) 1 2 0 0 Nil -1021 100) 
+COMMENT                     (CObjectList) (CObjectList))) (CObjectList))) 
+COMMENT       (CSeqView 10 10 (CObjectList) (CObList) 1 (CObList)) (CObList) 0 
+COMMENT       (CStringList) 21163384 26935740 (CObList)))
+FEATURES             Location/Qualifiers
+     misc_feature    779..1254
+                     /vntifkey="21"
+                     /label=B-globin_intron
+                     /note="Human B-globin 2nd intron, Rsa I deleted."
+     polyA_site      1816..1840
+                     /vntifkey="26"
+                     /label=polyA_site
+                     /note="Axxs added after these bases in globin message."
+     misc_feature    2364..2388
+                     /vntifkey="21"
+                     /label=End_of_globin
+                     /note="End of globin sequences in typical pMD constructs."
+     CDS             2628..3485
+                     /vntifkey="4"
+                     /label=bla
+                     /note="B-lactamase, confers ampicillin resistance, no Pst I."
+     misc_feature    628..679
+                     /vntifkey="21"
+                     /label=CMV_TATA
+                     /note="CMV TATA box sequences, from -52 to -1.  Wild type, with Sac I site."
+     misc_feature    4717..4829
+                     /vntifkey="21"
+                     /label=SV40_ori
+                     /note="SV40 5172..41, contains origin of replication, from pMD cassette."
+     misc_feature    3784..3827
+                     /vntifkey="21"
+                     /label=High_copy
+                     /note="Tag for High copy plasmid replication xxpUC18xx"
+     promoter        9..679
+                     /vntifkey="30"
+                     /label=CMV
+                     /note="CMV promoter.  Transcription starts with next base.  5 prime end represents complete extent of the CMV promoter in MDM based plasmids, which corresponds to positions 471..1141 of hCMVie genbank record accession X03922."
+     misc_feature    680..750
+                     /vntifkey="21"
+                     /label=CMV_5xxUTR
+                     /note="5xx untranslated region from CMV immediate early promoter.  The 3 prime end corresponds to the full extent of CMV sequences in the MDM constructs."
+     misc_feature    1629..2388
+                     /vntifkey="21"
+                     /label=beta_globin_pA
+                     /note="From 3rd exon of human beta globin, contains polyA sequences commonly used in HGTI vector lab constructs."
+     promoter        96..679
+                     /vntifkey="30"
+                     /label=CMV
+                     /note="CMV promoter.  Transcription starts with next base.  5 prime end starts at Spe I site only.  The CMV region in this construct may extend further upstream."
+     misc_feature    2402..2439
+                     /vntifkey="21"
+                     /label=Correction-143
+                     /note="Extra EcoR I site of pMD-old-gag-pol.  This sequence is definitely not in all MDM constructs.  Probably only exists in a few older constructs prior to the MDM2b set.  This sequence has been found to be erroneous for some plasmids in our laboratory.  It would be prudent to sequence the DNA to confirm the accuracy of your records.  The sequence specified by this feature was actually found to be:  ACATGGCAGT CTAGAATTCT TGAAGACGAA AGGGCC."
+     primer_bind     complement(4742..4768)
+                     /vntifkey="28"
+                     /label=HGTI-8_Max=618
+                     /note="Add-musFLT-mIg Plasmid record #912  Max recorded sequencing read = 618 bases.  Perfect match Tm = 59.3 C, although only 17 nt are required to match. The actual sequence of the primer is tccagaagta gtgaggaggc ttttttg."
+     primer_bind     692..715
+                     /vntifkey="28"
+                     /label=HGTI-761_Max=
+                     /note="PCR or sequencing primer located in CMV sequence just after 5xx end of RNA transcript.  Max recorded sequencing read =  bases.  Perfect match Tm = 63.9 C, although only 17 nt are required to match.  The actual sequence of the primer is GAGACGCCAT CCACGCTGTT TTGA."
+     primer_bind     complement(1473..1497)
+                     /vntifkey="28"
+                     /label=HGTI-1121_Max=
+                     /note="Sequencing primers for HIV strain HXB2 construct.  Max recorded sequencing read =  bases.  Perfect match Tm = 64.9 C, although only 17 nt are required to match.  The actual sequence of the primer is GCTCTTCGTC GCTGTCTCCG CTTCT."
+     primer_bind     complement(662..703)
+                     /vntifkey="28"
+                     /label=HGTI-1192_Max=
+                     /note="linker from SacI of CMV bridging into BglII of HIV R.  Max recorded sequencing read =  bases.  Perfect match Tm = 74.8 C, although only 17 nt are required to match.  The actual sequence of the primer is gatcTGGTCT AACCAGAGAG ACCCcggttc actaaacgAG CT."
+     primer_bind     617..638
+                     /vntifkey="28"
+                     /label=HGTI-1204_Max=311
+                     /note="Sequencing primers for pHJ1  Max recorded sequencing read = 311 bases. Perfect match Tm = 62.5 C, although only 17 nt are required to match.  The actual sequence of the primer is GCAAATGGGC GGTAGGCGTG TA."
+     primer_bind     612..652
+                     /vntifkey="28"
+                     /label=HGTI-1220_Max=162
+                     /note="?  Max recorded sequencing read = 162 bases.  Perfect match Tm = 76.1 C, although only 17 nt are required to match.  The actual sequence of the primer is gcgcactagt catatggtag gcgtgtacgg tgggaggtct a."
+     primer_bind     1224..1244
+                     /vntifkey="28"
+                     /label=HGTI-1278_Max=0
+                     /note="Jeng Shin designed sequencing primer @ 5xx end of MDM2b polylinker facing towards gene.  xx723 is longer, higher Tm versionxx.  Max recorded sequencing read = 0 bases.  Perfect match Tm = 40.3 C, although only 17 nt are required to match.  The actual sequence of the primer is CATGTTCATA CCTCTTATCT T."
+     primer_bind     complement(1675..1692)
+                     /vntifkey="28"
+                     /label=HGTI-1279_Max=
+                     /note="Jeng Shin designed sequencing primer @ 3xx end of MDM2b polylinker facing towards gene.New incarnation is 3149, reordered 1xx29xx01.  Max recorded sequencing read =  bases.  Perfect match Tm = 54.2 C, although only 17 nt are required to match.  The actual sequence of the primer is gccagggcat tagccaca."
+     primer_bind     1209..1243
+                     /vntifkey="28"
+                     /label=HGTI-1732_Max=783
+                     /note="New 5xx sequencing primer for B-globin constructs.  Same position as JSL-70, but longer with a Tm at 66C.  Max recorded sequencing read = 783 bases.  Perfect match Tm = 65.5 C, although only 17 nt are required to match. The actual sequence of the primer is GGCCCTTTTG CTAATCATGT TCATACCTCT TATCT."
+     primer_bind     4670..4695
+                     /vntifkey="28"
+                     /label=HGTI-1828_Max=662
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 662 bases.  Perfect match Tm = 60.7 C, although only 17 nt are required to match.  The actual sequence of the primer is agcgagaaga atcataatgg ggaagg."
+     primer_bind     151..178
+                     /vntifkey="28"
+                     /label=HGTI-1832_Max=638
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 638 bases.  Perfect match Tm = 58.7 C, although only 17 nt are required to match.  The actual sequence of the primer is agttccgcgt tacataactt acggtaaa."
+     primer_bind     751..775
+                     /vntifkey="28"
+                     /label=HGTI-1834_Max=595
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 595 bases.  Perfect match Tm = 58.7 C, although only 17 nt are required to match.  The actual sequence of the primer is cctcgaagct gatcctgaga acttc."
+     primer_bind     1051..1082
+                     /vntifkey="28"
+                     /label=HGTI-1835_Max=639
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 639 bases.  Perfect match Tm = 58.2 C, although only 17 nt are required to match.  The actual sequence of the primer is gttaaggcaa tagcaatatt tctgcatata aa."
+     primer_bind     1798..1826
+                     /vntifkey="28"
+                     /label=HGTI-1843_Max=379
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 379 bases.  Perfect match Tm = 59.8 C, although only 17 nt are required to match.  The actual sequence of the primer is agcatctgga ttctgcctaa taaaaaaca."
+     primer_bind     2099..2132
+                     /vntifkey="28"
+                     /label=HGTI-1844_Max=643
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 643 bases.  Perfect match Tm = 59.1 C, although only 17 nt are required to match.  The actual sequence of the primer is ttttacatta cttattgttt tagctgtcct catg."
+     primer_bind     complement(3953..3971)
+                     /vntifkey="28"
+                     /label=HGTI-1851_Max=601
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 601 bases.  Perfect match Tm = 60.1 C, although only 17 nt are required to match.  The actual sequence of the primer is cgaccgctgc gccttatcc."
+     primer_bind     complement(3642..3671)
+                     /vntifkey="28"
+                     /label=HGTI-1852_Max=372
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 372 bases.  Perfect match Tm = 58.8 C, although only 17 nt are required to match.  The actual sequence of the primer is aaaaggatct caagaagatc ctttgatctt ."
+     primer_bind     complement(3350..3371)
+                     /vntifkey="28"
+                     /label=HGTI-1853_Max=0
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 0 bases.  Perfect match Tm = 61.0 C, although only 17 nt are required to match.  The actual sequence of the primer is ccccagtgct gcaatgatac cg."
+     primer_bind     complement(3051..3071)
+                     /vntifkey="28"
+                     /label=HGTI-1854_Max=650
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 650 bases.  Perfect match Tm = 58.4 C, although only 17 nt are required to match.  The actual sequence of the primer is agcggttagc tccttcggtc c."
+     primer_bind     complement(2748..2771)
+                     /vntifkey="28"
+                     /label=HGTI-1855_Max=661
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 661 bases.  Perfect match Tm = 58.0 C, although only 17 nt are required to match.  The actual sequence of the primer is atccagttcg atgtaaccca ctcg."
+     primer_bind     complement(2441..2471)
+                     /vntifkey="28"
+                     /label=HGTI-1856_Max=711
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 711 bases.  Perfect match Tm = 58.3 C, although only 17 nt are required to match.  The actual sequence of the primer is gacattaacc tataaaaata ggcgtatcac g."
+     primer_bind     complement(236..260)
+                     /vntifkey="28"
+                     /label=HGTI-1863_Max=672
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 672 bases.  Perfect match Tm = 59.1 C, although only 17 nt are required to match.  The actual sequence of the primer is ccctattggc gttactatgg gaaca."
+     primer_bind     complement(536..560)
+                     /vntifkey="28"
+                     /label=HGTI-1864_Max=485
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 485 bases.  Perfect match Tm = 58.0 C, although only 17 nt are required to match.  The actual sequence of the primer is aaacaaactc ccattgacgt caatg."
+     primer_bind     complement(833..860)
+                     /vntifkey="28"
+                     /label=HGTI-1865_Max=636
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 636 bases.  Perfect match Tm = 59.3 C, although only 17 nt are required to match.  The actual sequence of the primer is tgttacttct ccccttccta tgacatga."
+     primer_bind     complement(1135..1160)
+                     /vntifkey="28"
+                     /label=HGTI-1866_Max=639
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 639 bases.  Perfect match Tm = 59.3 C, although only 17 nt are required to match.  The actual sequence of the primer is gcagaatggt agctggattg tagctg."
+     primer_bind     complement(1883..1907)
+                     /vntifkey="28"
+                     /label=HGTI-1874_Max=692
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 692 bases.  Perfect match Tm = 58.1 C, although only 17 nt are required to match.  The actual sequence of the primer is ttaaatgcac tgacctccca cattc."
+     primer_bind     complement(2178..2208)
+                     /vntifkey="28"
+                     /label=HGTI-1875_Max=610
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 610 bases.  Perfect match Tm = 59.5 C, although only 17 nt are required to match.  The actual sequence of the primer is tatctctaag caagagaact gagtggagtc a."
+     primer_bind     4162..4187
+                     /vntifkey="28"
+                     /label=HGTI-1881_Max=511
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 511 bases.  Perfect match Tm = 59 C, although only 17 nt are required to match.  The actual sequence of the primer is atctttatag tcctgtcggg tttcgc."
+     primer_bind     3862..3889
+                     /vntifkey="28"
+                     /label=HGTI-1882_Max=565
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 565 bases.  Perfect match Tm = 60.5 C, although only 17 nt are required to match.  The actual sequence of the primer is catacctcgc tctgctaatc ctgttacc."
+     primer_bind     3562..3590
+                     /vntifkey="28"
+                     /label=HGTI-1883_Max=564
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 564 bases.  Perfect match Tm = 58.2 C, although only 17 nt are required to match.  The actual sequence of the primer is tgaagatcct ttttgataat ctcatgacc."
+     primer_bind     3262..3286
+                     /vntifkey="28"
+                     /label=HGTI-1884_Max=593
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 593 bases.  Perfect match Tm = 59.6 C, although only 17 nt are required to match.  The actual sequence of the primer is ataaagttgc aggaccactt ctgcg."
+     primer_bind     2962..2989
+                     /vntifkey="28"
+                     /label=HGTI-1885_Max=654
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 654 bases.  Perfect match Tm = 60.0 C, although only 17 nt are required to match.  The actual sequence of the primer is cggatggcat gacagtaaga gaattatg."
+     primer_bind     2662..2682
+                     /vntifkey="28"
+                     /label=HGTI-1886_Max=647
+                     /note="Full plasmid sequencing for Add-BGFP-FasL-Ires-FADD  Max recorded sequencing read = 647 bases.  Perfect match Tm = 60.2 C, although only 17 nt are required to match.  The actual sequence of the primer is ccttttttgc ggcattttgc c."
+     primer_bind     561..593
+                     /vntifkey="28"
+                     /label=HGTI-2021_Max=707
+                     /note="sequencing pHD from 3xx end  Max recorded sequencing read = 707 bases. Perfect match Tm = 71.5 C, although only 17 nt are required to match.  The actual sequence of the primer is tggcaccaaa atcaacggga ctttccaaaa tgt."
+     primer_bind     complement(952..981)
+                     /vntifkey="28"
+                     /label=HGTI-2022_Max=610
+                     /note="sequencing primer in globin intron facing left.  Max recorded sequencing read = 610 bases.  Perfect match Tm = 53.9 C, although only 17 nt are required to match.  The actual sequence of the primer is gaaagaaaga gattagggaa agtattagaa ."
+     primer_bind     1226..1253
+                     /vntifkey="28"
+                     /label=HGTI-2144_Max=0
+                     /note="sFlt clone Add-musFlt-mIg: sequencing ORF  Max recorded sequencing read = 0 bases.  Perfect match Tm = 59.3 C, although only 17 nt are required to match.  The actual sequence of the primer is TGTTCATACC TCTTATCTTC CTCCCACA."
+     CDS             1325..1585
+                     /vntifkey="4"
+                     /label=Tat1b
+                     /note="HIV Tat Protein"
+BASE COUNT     1239 a      1153 c      1137 g      1300 t 
+ORIGIN
+        1 agcttggccc attgcatacg ttgtatccat atcataatat gtacatttat attggctcat 
+       61 gtccaacatt accgccatgt tgacattgat tattgactag ttattaatag taatcaatta 
+      121 cggggtcatt agttcatagc ccatatatgg agttccgcgt tacataactt acggtaaatg 
+      181 gcccgcctgg ctgaccgccc aacgaccccc gcccattgac gtcaataatg acgtatgttc 
+      241 ccatagtaac gccaataggg actttccatt gacgtcaatg ggtggagtat ttacggtaaa 
+      301 ctgcccactt ggcagtacat caagtgtatc atatgccaag tacgccccct attgacgtca 
+      361 atgacggtaa atggcccgcc tggcattatg cccagtacat gaccttatgg gactttccta 
+      421 cttggcagta catctacgta ttagtcatcg ctattaccat ggtgatgcgg ttttggcagt 
+      481 acatcaatgg gcgtggatag cggtttgact cacggggatt tccaagtctc caccccattg 
+      541 acgtcaatgg gagtttgttt tggcaccaaa atcaacggga ctttccaaaa tgtcgtaaca 
+      601 actccgcccc attgacgcaa atgggcggta ggcgtgtacg gtgggaggtc tatataagca 
+      661 gagctcgttt agtgaaccgt cagatcgcct ggagacgcca tccacgctgt tttgacctcc 
+      721 atagaagaca ccgggaccga tccagcctcc cctcgaagct gatcctgaga acttcagggt 
+      781 gagtctatgg gacccttgat gttttctttc cccttctttt ctatggttaa gttcatgtca 
+      841 taggaagggg agaagtaaca gggtacacat attgaccaaa tcagggtaat tttgcatttg 
+      901 taattttaaa aaatgctttc ttcttttaat atactttttt gtttatctta tttctaatac 
+      961 tttccctaat ctctttcttt cagggcaata atgatacaat gtatcatgcc tctttgcacc 
+     1021 attctaaaga ataacagtga taatttctgg gttaaggcaa tagcaatatt tctgcatata 
+     1081 aatatttctg catataaatt gtaactgatg taagaggttt catattgcta atagcagcta 
+     1141 caatccagct accattctgc ttttatttta tggttgggat aaggctggat tattctgagt 
+     1201 ccaagctagg cccttttgct aatcatgttc atacctctta tcttcctccc acagctcctg 
+     1261 ggcaacgtgc tggtctgtgt gctggcccat cactttggca aagaattccg cgggcggccg 
+     1321 cgaaatggag ccagtagatc ctagactaga gccctggaag catccaggaa gtcagcctaa 
+     1381 aactgcttgt accacttgct attgtaaaaa gtgttgcttt cattgccaag tttgtttcac 
+     1441 aacaaaagcc ttaggcatct cctatggcag gaagaagcgg agacagcgac gaagacctcc 
+     1501 tcaaggcagt cagactcatc aagtttctct atcaaagcaa cccacctccc aaccccgagg 
+     1561 ggacccgaca ggcccgaagg aataggatcc aagcttatcg ataccgtcga cctcgagggc 
+     1621 ccagatctaa ttcaccccac cagtgcaggc tgcctatcag aaagtggtgg ctggtgtggc 
+     1681 taatgccctg gcccacaagt atcactaagc tcgctttctt gctgtccaat ttctattaaa 
+     1741 ggttcctttg ttccctaagt ccaactacta aactggggga tattatgaag ggccttgagc 
+     1801 atctggattc tgcctaataa aaaacattta ttttcattgc aatgatgtat ttaaattatt 
+     1861 tctgaatatt ttactaaaaa gggaatgtgg gaggtcagtg catttaaaac ataaagaaat 
+     1921 gaagagctag ttcaaacctt gggaaaatac actatatctt aaactccatg aaagaaggtg 
+     1981 aggctgcaaa cagctaatgc acattggcaa cagcccctga tgcctatgcc ttattcatcc 
+     2041 ctcagaaaag gattcaagta gaggcttgat ttggaggtta aagttttgct atgctgtatt 
+     2101 ttacattact tattgtttta gctgtcctca tgaatgtctt ttcactaccc atttgcttat 
+     2161 cctgcatctc tcagccttga ctccactcag ttctcttgct tagagatacc acctttcccc 
+     2221 tgaagtgttc cttccatgtt ttacggcgag atggtttctc ctcgcctggc cactcagcct 
+     2281 tagttgtctc tgttgtctta tagaggtcta cttgaagaag gaaaaacagg gggcatggtt 
+     2341 tgactgtcct gtgagccctt cttccctgcc tcccccactc acagtgaccc ggaatccctc 
+     2401 gacatggcag tctagatcat tcttgaagac gaaagggcct cgtgatacgc ctatttttat 
+     2461 aggttaatgt catgataata atggtttctt agacgtcagg tggcactttt cggggaaatg 
+     2521 tgcgcggaac ccctatttgt ttatttttct aaatacattc aaatatgtat ccgctcatga 
+     2581 gacaataacc ctgataaatg cttcaataat attgaaaaag gaagagtatg agtattcaac 
+     2641 atttccgtgt cgcccttatt cccttttttg cggcattttg ccttcctgtt tttgctcacc 
+     2701 cagaaacgct ggtgaaagta aaagatgctg aagatcagtt gggtgcacga gtgggttaca 
+     2761 tcgaactgga tctcaacagc ggtaagatcc ttgagagttt tcgccccgaa gaacgttttc 
+     2821 caatgatgag cacttttaaa gttctgctat gtggcgcggt attatcccgt attgacgccg 
+     2881 ggcaagagca actcggtcgc cgcatacact attctcagaa tgacttggtt gagtactcac 
+     2941 cagtcacaga aaagcatctt acggatggca tgacagtaag agaattatgc agtgctgcca 
+     3001 taaccatgag tgataacact gcggccaact tacttctgac aacgatcgga ggaccgaagg 
+     3061 agctaaccgc ttttttgcac aacatggggg atcatgtaac tcgccttgat cgttgggaac 
+     3121 cggagctgaa tgaagccata ccaaacgacg agcgtgacac cacgatgcct gtagcaatgg 
+     3181 caacaacgtt gcgcaaacta ttaactggcg aactacttac tctagcttcc cggcaacaat 
+     3241 taatagactg gatggaggcg gataaagttg caggaccact tctgcgctcg gcccttccgg 
+     3301 ctggctggtt tattgctgat aaatctggag ccggtgagcg tgggtctcgc ggtatcattg 
+     3361 cagcactggg gccagatggt aagccctccc gtatcgtagt tatctacacg acggggagtc 
+     3421 aggcaactat ggatgaacga aatagacaga tcgctgagat aggtgcctca ctgattaagc 
+     3481 attggtaact gtcagaccaa gtttactcat atatacttta gattgattta aaacttcatt 
+     3541 tttaatttaa aaggatctag gtgaagatcc tttttgataa tctcatgacc aaaatccctt 
+     3601 aacgtgagtt ttcgttccac tgagcgtcag accccgtaga aaagatcaaa ggatcttctt 
+     3661 gagatccttt ttttctgcgc gtaatctgct gcttgcaaac aaaaaaacca ccgctaccag 
+     3721 cggtggtttg tttgccggat caagagctac caactctttt tccgaaggta actggcttca 
+     3781 gcagagcgca gataccaaat actgttcttc tagtgtagcc gtagttaggc caccacttca 
+     3841 agaactctgt agcaccgcct acatacctcg ctctgctaat cctgttacca gtggctgctg 
+     3901 ccagtggcga taagtcgtgt cttaccgggt tggactcaag acgatagtta ccggataagg 
+     3961 cgcagcggtc gggctgaacg gggggttcgt gcacacagcc cagcttggag cgaacgacct 
+     4021 acaccgaact gagataccta cagcgtgagc tatgagaaag cgccacgctt cccgaaggga 
+     4081 gaaaggcgga caggtatccg gtaagcggca gggtcggaac aggagagcgc acgagggagc 
+     4141 ttccaggggg aaacgcctgg tatctttata gtcctgtcgg gtttcgccac ctctgacttg 
+     4201 agcgtcgatt tttgtgatgc tcgtcagggg ggcggagcct atggaaaaac gccagcaacg 
+     4261 gagatgcgcc gcgtgcggct gctggagatg gcggacgcga tggatatgtt ctgccaaggg 
+     4321 ttggtttgcg cattcacagt tctccgcaag aattgattgg ctccaattct tggagtggtg 
+     4381 aatccgttag cgaggtgccg ccggcttcca ttcaggtcga ggtggcccgg ctccatgcac 
+     4441 cgcgacgcaa cgcggggagg cagacaaggt atagggcggc gcctacaatc catgccaacc 
+     4501 cgttccatgt gctcgccgag gcggcataaa tcgccgtgac gatcagcggt ccaatgatcg 
+     4561 aagttaggct ggtaagagcc gcgagcgatc cttgaagctg tccctgatgg tcgtcatcta 
+     4621 cctgcctgga cagcatggcc tgcaacgcgg gcatcccgat gccgccggaa gcgagaagaa 
+     4681 tcataatggg gaaggccatc cagcctcgcg tcggggagct ttttgcaaaa gcctaggcct 
+     4741 ccaaaaaagc ctcctcacta cttctggaat agctcagagg ccgaggcggc ctcggcctct 
+     4801 gcataaataa aaaaaattag tcagccatg 
+//
