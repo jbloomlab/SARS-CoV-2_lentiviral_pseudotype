@@ -19,3 +19,9 @@ The links go to Genbank plasmid maps that can be opened in programs such as [ApE
  - [HDM_tat1b](27_HDM_tat1b.gb): lentiviral plasmid expressing HIV Tat under a CMV promoter (#27 in Bloom lab plasmid log).
 
  - [pRC_CMV_Rev1b](28_pRC_CMV_Rev1b.gb): lentiviral plasmid expressing HIV Rev under a CMV promoter (#28 in Bloom lab plasmid log).
+
+ - [HDM_SARS2_Spikedelta18](2776_HDM_SARS2_Spikedelta21.gb): plasmid expressing the Spike protein from SARS-CoV-2 with the sequence codon optimized and the last 18 amino acids deleted (#2776 in Bloom lab plasmid log).
+
+ - [HDM_SARS2_Spikedelta21](2777_HDM_SARS2_Spikedelta21.gb): plasmid expressing the Spike protein from SARS-CoV-2 with the sequence codon optimized and the last 21 amino acids deleted (#2777 in Bloom lab plasmid log).
+
+ - [HDM_Spikedelta21_D614G](2800_HDM_Spikedelta21_D614G.gb): plasmid expressing the Spike protein from SARS-CoV-2 with the sequence codon optimized, the last 21 amino acids deleted, and the D614G mutation (#2800 in Bloom lab plasmid log).
